@@ -1,0 +1,7 @@
+{
+    "packAuthor": "EndangeredNayla",
+    "minecraftVersion": "1.18.2",
+    "modLoader": "forge",
+    "modLoaderVersion": "40.1.73",
+    "includes": ["config", "kubejs", "resources", "scripts"]
+}

@@ -136,6 +136,7 @@ Write-Host ""
 Write-Host "Downloading Mods...                   " -ForegroundColor Green
 Write-Host ""
 Write-Host "######################################" -ForegroundColor Cyan
+
 if ($IsWindows) {
     ./tools/ModpackDownloader.exe -f mods.json
 }

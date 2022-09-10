@@ -10,10 +10,10 @@ $INSTANCE_ROOT = ("$PSScriptRoot" | Resolve-Path)
 #  CURSEFORGE ACCOUNT SETTINGS
 # =====================================================================//
 
-$CURSEFORGE_USER = "MyCurseForgeUsername"
+$CURSEFORGE_USER = "EndangeredNayla"
 
 # ProjectID can be found on the modpack's Curseforge Projects page, under "About This Project"
-$CURSEFORGE_PROJECT_ID = 123456
+$CURSEFORGE_PROJECT_ID = 490560
 
 
 #=====================================================================//
@@ -78,7 +78,7 @@ $CLIENT_CHANGELOG = "The Changelog is currently being written."
 # @(8134) - is Minecraft 1.16.4
 # @(9008) - is Minecraft 1.18.2
 # More can be found by running GetGameVersions
-$GAME_VERSIONS = @(9008)
+$GAME_VERSION = 9008
 
 # Can be "alpha", "beta" or "release"
 $CLIENT_RELEASE_TYPE = "alpha"
@@ -100,7 +100,7 @@ $CLIENT_MODS_TO_REMOVE_FROM_SERVER_FILES = @("CraftPresence-1.18.2-Release-1.8.1
 
 # A continuous line of the folders and files (with extensions) to zip into Server Files.
 # Default: @("mods", "config")
-$CONTENTS_TO_ZIP = @("config", "mods", "kubejs", "scripts")
+$SERVER_CONTENTS_TO_ZIP = @("config", "mods", "kubejs", "scripts")
 
 
 # =====================================================================//
@@ -114,12 +114,11 @@ $ENABLE_CURSE_CLIENT_MODULE = $true
 # Toggle the modpack uploader on/off
 # Setting this to $false will also disable the Server File and Changelog Generator Modules.
 # Default: $true
-$ENABLE_MODPACK_UPLOADER_CURSE_MODULE = $true
+$ENABLE_MODPACK_UPLOADER_CURSE_MODULE = $false
 
 # Toggle server file feature on/off
 # Default: $true
-$ENABLE_SERVER_FILE_MODULE = $true
-
+$ENABLE_SERVER_FILE_MODULE = $false
 
 # Toggle automatic changelog generator on/off
 # This module requires an older modpack manifest zip to be present, 
@@ -133,7 +132,7 @@ $ENABLE_ALWAYS_UPDATE_APPS = $false
 
 # Toggles Extra Logging on/off.
 # Default: $false
-$ENABLE_EXTRA_LOGGING = $true
+$ENABLE_EXTRA_LOGGING = $false
 
 # Toggles GitHub Changelog Generator integration on/off.
 # Requires extensive setup, this is an advanced step.
@@ -156,8 +155,8 @@ $CLIENT_ZIP_NAME = "$CLIENT_NAME-$MODPACK_VERSION"
 # Syntax of the Previous Versions CLIENT ZIP File
 $LAST_MODPACK_ZIP_NAME = "$CLIENT_NAME-$LAST_MODPACK_VERSION"
 
-# Default: "$CLIENT_NAME $MODPACK_VERSION"
-$CLIENT_FILE_DISPLAY_NAME = "MyModpack $MODPACK_VERSION"
+# Default: "$CLIENT_NAME - $MODPACK_VERSION"
+$CLIENT_FILE_DISPLAY_NAME = "$CLIENT_NAME - $MODPACK_VERSION"
 
 # Must be a single string. Use Powershell escaping for new lines etc. New line is `n and indent is `t
 # Default: $CLIENT_CHANGELOG

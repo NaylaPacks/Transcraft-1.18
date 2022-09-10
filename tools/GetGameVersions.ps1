@@ -33,6 +33,6 @@ elseif ($IsWindows) {
     }
 }
 
-Remove-Item .\GameVersions.json
+Remove-Item .\versions.json
 
-Curl -H X-Api-Token:$CURSEFORGE_UPLOADAPI_TOKEN https://minecraft.curseforge.com/api/game/versions >> GameVersions.json
+Curl -H X-Api-Token:$CURSEFORGE_UPLOADAPI_TOKEN https://minecraft.curseforge.com/api/game/versions >> versions.json
