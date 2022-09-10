@@ -1,0 +1,11 @@
+{
+	id: "4AF73215791899C1"
+	group: "0D0E265050107B65"
+	order_index: 0
+	filename: "beyond_earth"
+	title: "Beyond Earth"
+	icon: "beyond_earth:earth_globe"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

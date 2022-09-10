@@ -1,0 +1,11 @@
+{
+	id: "7BF05BA1A103328E"
+	group: "0D0E265050107B65"
+	order_index: 7
+	filename: "the_undergarden"
+	title: "The Undergarden"
+	icon: "undergarden:deepturf_block"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

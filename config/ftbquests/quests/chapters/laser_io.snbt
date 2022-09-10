@@ -1,0 +1,449 @@
+{
+	id: "48F08613B1ABF73B"
+	group: "1065D30075B0A5C8"
+	order_index: 1
+	filename: "laser_io"
+	title: "Laser IO"
+	icon: "laserio:laser_node"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Welcome to LaserIO!"
+			icon: "laserio:laser_wrench"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "\"It started out as a completely different mod, but once I saw how many people wanted to see 'EnderIO Pipes' brought back - the plans got changed and LaserIO was born.\""
+			description: [
+				"LaserIO seeks to replicate the mechanics of EnderIO - allowing you to interact with items, fluids, energy, and redstone -- all from the same block face! Furthermore, 9 separate configurations can be placed per block face, leading to nearly limitless potential for logistics around transportation of resources.                      "
+				"Mod Spotlight: https://youtu.be/o22Pq9NmTSY"
+			]
+			id: "67A8166AB8E870CE"
+			tasks: [{
+				id: "1D8CFA58F77F72E7"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "708C78358A79B4C7"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "laserio:laseriobook"
+						}
+					}
+				}
+				{
+					id: "1691073839C13931"
+					type: "item"
+					item: "laserio:laser_wrench"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			description: [
+				"The Laser Node is the most important block in LaserIO as it allows interaction with adjacent blocks."
+				""
+				"By using Cards such as the Item Card , you can interact with the adjacent block to transfer Items, Fluids, Energy, or Redstone."
+				""
+				"Each side of a node has a 3x3 grid of inventory slots that accept Cards. Right click a node's side to open it's UI.  Use the buttons along the top to change which side you're working on, in case the side you want to modify isn't easily accessible."
+				""
+				"Nodes can interact with multiple adjacent inventories at the same time."
+				""
+				"Nodes can be connected together using the Laser Wrench, allowing connections between distant inventories.  The maximum range between connections is 8 blocks. If your nodes are father apart, it is recommended to use Laser Connectors."
+			]
+			dependencies: ["67A8166AB8E870CE"]
+			id: "2A9971DD3ECF8C69"
+			tasks: [{
+				id: "41B76577D6CF3C12"
+				type: "item"
+				item: "laserio:laser_node"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			description: [
+				"Multiple Laser Nodes can be connected directly to each other using the Laser Wrench, however the maximum range is 8 blocks."
+				""
+				"Laser Connectors can act as a cheaper intermediary point between nodes, allowing you to build a network of interconnected inventories."
+			]
+			dependencies: ["67A8166AB8E870CE"]
+			id: "1149B9FD14CAC282"
+			tasks: [{
+				id: "1042D6DA27800BF8"
+				type: "item"
+				item: "laserio:laser_connector"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.5d
+			description: [
+				"Node Overclockers are a more complex component."
+				""
+				"Each Node can only operate on 1 card per side per tick."
+				""
+				"If there are 3 extractor cards in the side of a node, only the first one will operate during a game tick, and the second will only operate if the first fails to do anything."
+				""
+				"Each Node Overclocker installed on the side of a Node allows that side to operate on more cards per tick. A total of 8 Node Overclockers can be installed, allowing all 9 nodes to be operated on. "
+				""
+				"Inserter cards do NOT need overclockers to function, ONLY Extractor and Stocker cards need them."
+			]
+			dependencies: ["2A9971DD3ECF8C69"]
+			id: "241275B721C8A799"
+			tasks: [{
+				id: "62EF3B02D4A30362"
+				type: "item"
+				item: "laserio:overclocker_node"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.5d
+			description: [
+				"Card Overclockers allow individual cards to operate more quickly."
+				""
+				"For example, Item Cards can only extract at most 8 items every 20 ticks (1 second). With 4 overclockers installed they can reach 64 items per 1 tick!"
+			]
+			dependencies: ["2A9971DD3ECF8C69"]
+			id: "2D325506493098C1"
+			tasks: [{
+				id: "5781B12B2452994C"
+				type: "item"
+				item: "laserio:overclocker_card"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -1.5d
+			description: [
+				"Item Cards are used to send items between inventories, such as chests and furnaces."
+				""
+				"Item/T values (max) for Overclockers:"
+				"0 Overclockers: 8 Items/20t"
+				"1 Overclocker:  16 Items/15t"
+				"2 Overclockers: 32 Items/10t"
+				"3 Overclockers: 48 Items/5t"
+				"4 Overclockers: 64 Items/1t"
+			]
+			dependencies: ["2A9971DD3ECF8C69"]
+			id: "55ECF5D542441BD9"
+			tasks: [{
+				id: "5D8D22A0B502C16F"
+				type: "item"
+				item: "laserio:card_item"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -0.5d
+			description: [
+				"Fluid Cards are used to send Fluids between inventories, such as tanks."
+				""
+				"MB/T values (max) for Overclockers:"
+				"0 Overclockers: 1,000mb/20t"
+				"1 Overclocker:  2,000mb/15t"
+				"2 Overclockers: 4,000mb/10t"
+				"3 Overclockers: 6,000mb/5t"
+				"4 Overclockers: 8,000mb/1t"
+			]
+			dependencies: ["2A9971DD3ECF8C69"]
+			id: "3E30EAC40893D900"
+			tasks: [{
+				id: "0D1AC7CEEC743000"
+				type: "item"
+				item: "laserio:card_fluid"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.5d
+			description: [
+				"Energy Cards are used to send Energy between inventories, such as machines and batteries."
+				""
+				"Unlike Item/Fluid cards that require overclockers to operate faster than once every 20 ticks, Energy Cards can operate every tick by default."
+				""
+				"FE/T values (max) for Overclockers:"
+				"0 Overclockers: 1,000fe/t"
+				"1 Overclocker:  4,000fe/t"
+				"2 Overclockers: 16,000fe/t"
+				"3 Overclockers: 32,000fe/t"
+				"4 Overclockers: 100,000fe/t"
+				""
+				"Energy cards also have an 'Energy Limit %' setting -- By default, on insert/stock modes this is 100%, and on extract modes this is 0%. On insert/stock mode it specifies how much to fill up the specified energy acceptor. $(br2)For example: If the block can hold 1,000,000 FE, and you specify 50%, it will only fill up to 500,000FE."
+				""
+				"In extract mode, this designates what percent should be left behind. For example: If you are extracting FE from an energy cell that can hold 1,000,000FE, and specify a limit of 25%, it will not extract below 250,000 FE."
+				""
+				"Technical Note: The Forge Energy system supports energy storage up to MAX_INT which is approximately 2.14 billion FE. If you are using a mod like Draconic Evolution or Mekanism, their storage cells can store greater than this amount by 'hacking' how Forge Energy works. As a result, this % indicator will not work on storage cells greater than 2.14 billion FE. Sorry! :)"
+			]
+			dependencies: ["2A9971DD3ECF8C69"]
+			id: "70D0EA2B88463747"
+			tasks: [{
+				id: "282C37994AF34DB6"
+				type: "item"
+				item: "laserio:card_energy"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 1.5d
+			description: [
+				"Redstone cards are used to transmit redstone signals across the entire LaserIO network."
+				""
+				"Redstone cards have 2 modes:"
+				"Input mode will accept a redstone signal from something like redstone dust, a lever, or a button, and transmit it across the network on the redstone channel configured on the card."
+				""
+				"Output mode, will emit a redstone signal to blocks like redstone dust, lamp, or repeaters. Output mode has a toggle for Weak vs Strong. In weak mode, only directly adjacent blocks like redstone will get the signal, similar to how redstone dust works.                                                                          In strong mode the redstone signal can transmit through an adjacent block and affect the block on the other side, like how levers work."
+				""
+				"All cards have a redstone mode toggle, which defaults to ignored, meaning the cards will always operate. If set to low, the cards will only function when there is NOT a redstone signal on the redstone channel (the channel button is to the right of the redstone toggle).                                          "
+				"On redstone high mode, the cards will only operate when there IS a redstone signal on the redstone channel."
+			]
+			dependencies: ["2A9971DD3ECF8C69"]
+			id: "4472695FDDDE90A7"
+			tasks: [{
+				id: "3D8636A03EEA19EB"
+				type: "item"
+				item: "laserio:card_redstone"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -1.5d
+			description: [
+				"The basic filter can be used to limit what items are allowed in an inventory."
+				"These slots are 'ghost slots', which means they do not REALLY hold items, just an image of an item."
+				" "
+				"If JEI is installed, you may drag items from JEI into these 'ghost slots'. Simply left click and drag out of JEI into the filter UI."
+			]
+			dependencies: [
+				"4472695FDDDE90A7"
+				"70D0EA2B88463747"
+				"3E30EAC40893D900"
+				"55ECF5D542441BD9"
+			]
+			dependency_requirement: "one_completed"
+			id: "5D4BD7CA2750CECC"
+			tasks: [{
+				id: "50D6B9F67392B64F"
+				type: "item"
+				item: {
+					id: "laserio:filter_basic"
+					Count: 1b
+					tag: {
+						inv: {
+							Size: 15
+							Items: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: -0.5d
+			description: ["The mod filter will sort based on what mod an item/block comes from. For example, if you place a Laser Wrench in the filter, all LaserIO items and blocks will match that filter."]
+			dependencies: [
+				"4472695FDDDE90A7"
+				"70D0EA2B88463747"
+				"3E30EAC40893D900"
+				"55ECF5D542441BD9"
+			]
+			dependency_requirement: "one_completed"
+			id: "19CC8F3B04F06A6E"
+			tasks: [{
+				id: "5F9BE5C8DD51214F"
+				type: "item"
+				item: {
+					id: "laserio:filter_mod"
+					Count: 1b
+					tag: {
+						inv: {
+							Size: 15
+							Items: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 0.5d
+			description: [
+				"The Count Filter can designate a specified number of items, and plays a different role based on the card's mode."
+				""
+				"Stack sizes of items can go from 1 to 4096. Left click will increase the stack size, while right click will decrease it. Holding shift or control will modify this amount by 10 or 64 respectively."
+				""
+				"If a counting filter is used in a stocker mode card, it will try to keep the specified amount of resources in stock. For example, keeping 64 cobblestone in a chest is done by using a Counting Filter with 64 cobblestone"
+				""
+				"If a counting filter is used in an Inserter card, it will limit how many items are allowed to be sent to that inventory by extractor cards."
+				""
+				"If a counting filter is used in a extractor mode card, it will leave the designated number of items behind. For example, if you set an extract card with a filter of 8 cobblestone, it will pull out all but the last 8 cobblestone from a chest."
+				""
+				"Counting filters do not have an Allow vs Deny button - as Deny mode would not make any sense for a counting filter. All counting filters are 'Allow mode'.  JEI Interaction works the same as it does in a Basic Filter"
+			]
+			dependencies: [
+				"4472695FDDDE90A7"
+				"70D0EA2B88463747"
+				"3E30EAC40893D900"
+				"55ECF5D542441BD9"
+			]
+			dependency_requirement: "one_completed"
+			id: "62C0F090B8EC6358"
+			tasks: [{
+				id: "63A963DA71C994BD"
+				type: "item"
+				item: {
+					id: "laserio:filter_count"
+					Count: 1b
+					tag: {
+						inv: {
+							Size: 15
+							Items: [ ]
+						}
+						counts: [
+							{
+								MBAmount: 0
+								Slot: 0
+								Count: 0
+							}
+							{
+								MBAmount: 0
+								Slot: 1
+								Count: 0
+							}
+							{
+								MBAmount: 0
+								Slot: 2
+								Count: 0
+							}
+							{
+								MBAmount: 0
+								Slot: 3
+								Count: 0
+							}
+							{
+								MBAmount: 0
+								Slot: 4
+								Count: 0
+							}
+							{
+								MBAmount: 0
+								Slot: 5
+								Count: 0
+							}
+							{
+								MBAmount: 0
+								Slot: 6
+								Count: 0
+							}
+							{
+								MBAmount: 0
+								Slot: 7
+								Count: 0
+							}
+							{
+								MBAmount: 0
+								Slot: 8
+								Count: 0
+							}
+							{
+								MBAmount: 0
+								Slot: 9
+								Count: 0
+							}
+							{
+								MBAmount: 0
+								Slot: 10
+								Count: 0
+							}
+							{
+								MBAmount: 0
+								Slot: 11
+								Count: 0
+							}
+							{
+								MBAmount: 0
+								Slot: 12
+								Count: 0
+							}
+							{
+								MBAmount: 0
+								Slot: 13
+								Count: 0
+							}
+							{
+								MBAmount: 0
+								Slot: 14
+								Count: 0
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 1.5d
+			description: [
+				"The tag filter allows a player to filter by tags on resources.                                                                          Tags are a way for Minecraft to group similar resources. For example, on the right we can see that an Iron Ingot has the 'forge:ingots' tag. So too does gold, copper, tin, etc."
+				""
+				"The tag filter would allow you to sort on all ingots with a single entry!"
+			]
+			dependencies: [
+				"4472695FDDDE90A7"
+				"70D0EA2B88463747"
+				"3E30EAC40893D900"
+				"55ECF5D542441BD9"
+			]
+			dependency_requirement: "one_completed"
+			id: "5E7347210917A093"
+			tasks: [{
+				id: "46775AE9C1EF0DA6"
+				type: "item"
+				item: {
+					id: "laserio:filter_tag"
+					Count: 1b
+					tag: {
+						tags: [ ]
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			description: [
+				"The card holder is the solution to all your inventory woes! At least, the ones caused by this mod....Simply craft a Card Holder and right click it to open up the UI. Cards placed in this UI can stack up to 64, provided their NBT data matches."
+				" "
+				"(Reminder: You can craft cards by themselves to reset their NBT)"
+				" "
+				"Cards can be modified from within the holder - by right clicking on a cardstack (Just like in a laser node)."
+				" "
+				"NOTE: If the stacksize of the card is larger than 1, it will disable the Filter and Overclocker slots to prevent item duping. #BlameSoaryn"
+				" "
+				"By holding shift and right clicking the Card holder, it will start automatically pulling cards out of your inventory! You can tell this is activated because the card holder starts to glow as if it were enchanted. Shift-right click again to toggle it off. If you have the card holder in your inventory when you open a node, you'll see its cards displayed."
+			]
+			dependencies: ["67A8166AB8E870CE"]
+			id: "5E6A45D8FE40AADE"
+			tasks: [{
+				id: "1E47BC745A4CF145"
+				type: "item"
+				item: {
+					id: "laserio:card_holder"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 15
+							Items: [ ]
+						}
+					}
+				}
+			}]
+		}
+	]
+}

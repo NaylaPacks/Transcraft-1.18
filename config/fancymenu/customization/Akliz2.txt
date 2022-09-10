@@ -1,0 +1,126 @@
+type = menu
+
+customization-meta {
+  identifier = akliz2
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = mid-centered
+  enable_scrolling = false
+  shadow = true
+  scale = 1.5
+  source = Let's create your     Minecraft Server.
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -194
+  width = 391
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 5f6a8cc5-7d2a-4e68-95ca-82a996f292ae1662068713635
+  y = -78
+  alignment = centered
+  height = 40
+}
+
+customization {
+  path = kubejs/mainmenu/akliz_std.png
+  orientation = mid-centered
+  x = -12
+  width = 18
+  action = addtexture
+  actionid = 14820d98-2f6b-4814-bf6b-fc7488c73ab31662068763479
+  y = -81
+  height = 18
+}
+
+customization {
+  orientation = mid-centered
+  enable_scrolling = false
+  shadow = true
+  scale = 1.0
+  source = Recommended Plan
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -151
+  width = 302
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = f4d6454e-69de-4a7b-8d51-c3810483b5f01662068821867
+  y = -30
+  alignment = centered
+  height = 11
+}
+
+customization {
+  orientation = top-right
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = closegui
+  x = -142
+  width = 133
+  actionid = 7f4bb63b-a191-44d9-89df-8fc3c7da1ae41662068879142
+  action = addbutton
+  y = 10
+  label = Back
+  value = 
+  height = 20
+}
+
+customization {
+  orientation = bottom-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  label = Purchase
+  loopbackgroundanimations = true
+  hoverlabel = Purchase Now!
+  x = -154
+  width = 295
+  actionid = 340f6e6c-0cbb-4929-b2ba-84b0e0ad02641662068889301
+  action = addbutton
+  y = -45
+  value = https://www.akliz.net/manage/cart.php?a=add&pid=35&promocode=crankysupertoon
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  delayappearanceseconds = 0.5
+  path = kubejs/mainmenu/akliz_hero.png
+  fadein = true
+  fadeinspeed = 4.0
+  x = -190
+  width = 370
+  action = addtexture
+  actionid = 40768b33-9892-43cf-babd-24902e41c6011662070079988
+  y = -28
+  delayappearance = true
+  delayappearanceeverytime = false
+  height = 152
+}
+
+customization {
+  orientation = bottom-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  x = -69
+  width = 133
+  actionid = 15d2361e-44fd-441a-bf1e-4220ef9d0d141662070427408
+  action = addbutton
+  y = -21
+  label = Or Select Another Tier
+  value = https://www.akliz.net/pricing
+  height = 13
+}
+

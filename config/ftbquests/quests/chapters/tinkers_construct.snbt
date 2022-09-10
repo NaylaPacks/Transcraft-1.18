@@ -1,0 +1,17 @@
+{
+	id: "61D5EDB05646F806"
+	group: "4EDFF2CB88086862"
+	order_index: 3
+	filename: "tinkers_construct"
+	title: "Tinkers' Construct"
+	icon: {
+		id: "tconstruct:crafting_station"
+		Count: 1b
+		tag: {
+			texture: "minecraft:dark_oak_log"
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

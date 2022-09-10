@@ -1,0 +1,1464 @@
+{
+	id: "2E430AA7028ECB97"
+	group: "7452BCDA6D25A5F0"
+	order_index: 14
+	filename: "thermale"
+	title: "Thermal"
+	icon: "thermal:tinker_bench"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Welcome to Thermal!"
+			icon: "thermal:wrench"
+			x: -0.5d
+			y: 0.5d
+			shape: "octagon"
+			id: "0FB20526CAD82C9A"
+			tasks: [{
+				id: "220ABFEB21913AA0"
+				type: "checkmark"
+				title: "Welcome to Cloud Storage!"
+			}]
+			rewards: [
+				{
+					id: "1CEB279F5A77B5B5"
+					type: "item"
+					item: "thermal:wrench"
+				}
+				{
+					id: "554AB61965350964"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "thermal:guidebook"
+						}
+					}
+				}
+				{
+					id: "26910C7FD5937D99"
+					type: "item"
+					item: "thermal:redprint"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -3.0d
+			description: ["The Stirling Dynamo uses burnable items to produce RF."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "4ED8F758AAB448B8"
+			tasks: [{
+				id: "4410D115BB44DCE0"
+				type: "item"
+				item: "thermal:dynamo_stirling"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.5d
+			subtitle: "Coal is for chumps!"
+			description: ["The Redstone Furnace is a machine that smelts your items like a traditional furnace."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "6440786A3A993BE6"
+			tasks: [{
+				id: "5AD7EAF3F6A7DF0B"
+				type: "item"
+				item: "thermal:machine_furnace"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -0.5d
+			subtitle: "MACHINE SMASH! Puny ore."
+			description: ["The Pulverizer is a machine that crushes items and ores. Improves ore yields, which can be further increased using augments and catalysts."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "36319EF08D37CFC8"
+			tasks: [{
+				id: "55AE8847292D319A"
+				type: "item"
+				item: "thermal:machine_pulverizer"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.5d
+			subtitle: "Better watch your hands…"
+			description: ["A Sawmill is a machine that processes wood into wood planks more efficiently than by hand."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "47CD87A2E237483A"
+			tasks: [{
+				id: "14F4B91E09A09051"
+				type: "item"
+				item: "thermal:machine_sawmill"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.5d
+			subtitle: "Will absolutely not cook food."
+			description: ["The Induction Smelter is a machine that smelts multiple items together, producing alloys. It can also smelt ores into ingots and gems, which is affected by catalysts. Smelting ores has a chance to produce rich slag as a secondary output, which can be used as a catalyst or to make phyto-gro. Smelting gravel yields flint and slag."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "60C0E18D2F68EC1C"
+			tasks: [{
+				id: "21469B16FC548B20"
+				type: "item"
+				item: "thermal:machine_smelter"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -0.5d
+			subtitle: "Definitely not organic."
+			description: ["The Phytogenic Insolator is a machine that uses RF, water, and optionally fertilizer in order to grow crops, flowers, and trees."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "6C886F3E4703EFF5"
+			tasks: [{
+				id: "2BF58E9144E31CEA"
+				type: "item"
+				item: "thermal:machine_insolator"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -0.5d
+			subtitle: "Spin to win!"
+			description: ["The Centrifugal Separator is a machine that separates items into their components. E.g. alloy blends into their base metal dusts. It is also efficient at extracting dyes from flowers."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "718410F0B70D1F4E"
+			tasks: [{
+				id: "7C7AA659E54F1452"
+				type: "item"
+				item: "thermal:machine_centrifuge"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -1.5d
+			subtitle: "More gentle than a Pulverizer."
+			description: ["The Multiservo Press is a machine that can accept a variety of dies in order to shape metals into different forms and (un)pack blocks and items."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "7BD2330EC280B8C3"
+			tasks: [{
+				id: "782AF5AC370A9309"
+				type: "item"
+				item: "thermal:machine_press"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.5d
+			subtitle: "Yes, it can make lava. You monster."
+			description: ["The Magma Crucible is a machine that melts items into fluids."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "470E7A389BF7363F"
+			tasks: [{
+				id: "28B11EFD126F8F4B"
+				type: "item"
+				item: "thermal:machine_crucible"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -0.5d
+			subtitle: "Have a snowball fight!"
+			description: ["The Blast Chiller is a machine that cools down and crystallizes liquids such as water and molten metals into their solid forms. Accepts various casts to alter the shape of the end product."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "3A800EA601809AB5"
+			tasks: [{
+				id: "0F3B6F1E643D670C"
+				type: "item"
+				item: "thermal:machine_chiller"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -0.5d
+			subtitle: "Products may or may not be drinkable."
+			description: ["The Fractionating Still is a machine refines fluids such as Resin and Sap."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "6DE6E7A0BE449E23"
+			tasks: [{
+				id: "5C31759F6EA15875"
+				type: "item"
+				item: "thermal:machine_refinery"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -1.5d
+			subtitle: "Decompressing matter."
+			description: ["The Pyrolyzer is a machine that decomposes substances in a low-oxygen environment using heat. Typically used to convert organic matter and coal into cleaner, longer-lasting fuels."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "71F327880441CD14"
+			tasks: [{
+				id: "1ADC3B120CA9E3B7"
+				type: "item"
+				item: "thermal:machine_pyrolyzer"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -0.5d
+			subtitle: "Filling buckets by hand is hard work."
+			description: ["The Fluid Encapsulator is a machine that fills items that hold fluids, such as buckets and bottles. Can be used to automatically fill bottles with potion fluid from  the Alchemical Imbuer"]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "741B5EF3DE9664FF"
+			tasks: [{
+				id: "6C89B52D3D35FEF3"
+				type: "item"
+				item: "thermal:machine_bottler"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -1.5d
+			subtitle: "Bottles not included."
+			description: ["The Alchemical Imbuer is a machine that brews potions. Creates potion fluid as opposed to brewing directly in a bottle. One ingredient is enough to brew one potion bucket, which can fill 4 bottles."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "63754DD04E1D76FD"
+			tasks: [{
+				id: "7304038000E231CC"
+				type: "item"
+				item: "thermal:machine_brewer"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -0.5d
+			subtitle: "Very crafty."
+			description: ["The Sequential Fabricator is a machine that automatically crafts items. Once the recipe in the crafting grid is set, it will take items and liquids from its internal inventory and craft them. Recipes that take a bucket of a particular fluid and leave an empty bucket behind can be crafted using liquid from the internal tank instead."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "1448DA8EDF36D8FC"
+			tasks: [{
+				id: "4A0CFAC94E1E9F05"
+				type: "item"
+				item: "thermal:machine_crafter"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.0d
+			description: ["The Compression Dynamo uses burnable liquid fuels such as tree oil to produce RF."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "45213EC7A99A7CE1"
+			tasks: [{
+				id: "26238157F01CF314"
+				type: "item"
+				item: "thermal:dynamo_compression"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -3.0d
+			description: ["The Magmatic Dynamo uses lava to produce RF."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "0331D570474B1D70"
+			tasks: [{
+				id: "116BDC9019423685"
+				type: "item"
+				item: "thermal:dynamo_magmatic"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.0d
+			description: ["The Numismatic Dynamo uses coins to produce RF."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "6B2F9A46D333026F"
+			tasks: [{
+				id: "34FD74AEDBDF7952"
+				type: "item"
+				item: "thermal:dynamo_numismatic"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -4.0d
+			description: ["The Lapidary Dynamo uses crystals and gems to produce RF."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "35B0C1F790C58374"
+			tasks: [{
+				id: "1446354B28C4777C"
+				type: "item"
+				item: "thermal:dynamo_lapidary"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -4.0d
+			description: ["The Disenchantment Dynamo uses enchanted items such as books to produce RF."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "117F06889030044B"
+			tasks: [{
+				id: "7D1EA5ECCE0C3BD0"
+				type: "item"
+				item: "thermal:dynamo_disenchantment"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -3.5d
+			description: ["The Gourmand Dynamo uses food to produce RF."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "49F7B5EA314216C0"
+			tasks: [{
+				id: "51847AF4764219B0"
+				type: "item"
+				item: "thermal:dynamo_gourmand"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			description: ["The Aquatic Entangler is a device that can passively catch fish when it is placed in a body of water. The rate at which it catches fish depends on the biome, weather, and augment configuration, but it has a base rate of 1 catch every few minutes. Integral components and radial enhancements can speed this up. It can optionally take bait to boost its rate or alter which items it catches."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "56F871E86F205057"
+			tasks: [{
+				id: "25F44212E9DCC3FE"
+				type: "item"
+				item: "thermal:device_fisher"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.0d
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "1AB2B39D0261387A"
+			tasks: [{
+				id: "5766354D990D25A6"
+				type: "item"
+				item: "thermal:device_composter"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			description: ["The Aqueous Accumulator is a device that will generate infinite water for your needs. In order for it to produce water there must be at least two source blocks adjacent to the sides of the device. Source blocks above or below the device will not count."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "3D9B784C7C371AFB"
+			tasks: [{
+				id: "0B1223FC46FD64B8"
+				type: "item"
+				item: "thermal:device_water_gen"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.0d
+			description: ["The Igneous Extruder is a device that will generate infinite stone when surrounded with the appropriate blocks and fluids. It requires an adjacent lava source block and an adjacent coolant block; it can optionally take a block underneath. Refer to JEI for all the available recipes."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "0CCB4059C43E1146"
+			tasks: [{
+				id: "615C0ACB409D3FA1"
+				type: "item"
+				item: "thermal:device_rock_gen"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			description: ["The Vacuumulator is a device that can pick up items in its area of effect. It can pick up EXP orbs when a knowledge concentrator augment is installed. At base, the vacuumulator collects in a 9x9x9 area centered on it, which can be augmented up using radial enhancement augments."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "1573537257583F3E"
+			tasks: [{
+				id: "46065107923E77D1"
+				type: "item"
+				item: "thermal:device_collector"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.0d
+			description: ["The Nullifier is a device that can void all items and fluids that are inserted into it. Items/fluids that are input automatically (via e.g. hoppers) are instantly voided, while items inserted manually through the GUI are temporarily stored until the trash button is pressed. It is compatible with filter type augments to restrict what it can accept."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "78D04F09FBB3280C"
+			tasks: [{
+				id: "0851721C88564A18"
+				type: "item"
+				item: "thermal:device_nullifier"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.0d
+			description: ["The Decoctive Diffuser is a device that will periodically consume potion fluid to spread potion effects to nearby mobs. Effects granted this way last 1/4 as long compared to a regular potion. It automatically halts operation when no mobs are in its area of effect. At base, the diffuser spreads potion effects in a 9x9x9 area centered on it, which can be augmented up using radial enhancement augments."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "2ECA15B573D552CB"
+			tasks: [{
+				id: "6C106FC919C3DE0E"
+				type: "item"
+				item: "thermal:device_potion_diffuser"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 3.0d
+			description: ["The Energetic Infuser is a block that can be used to charge up to 9 items at once. Its main benefits over the Tinker's Bench are faster charging speeds and that items can be automatically inserted and extracted (e.g. with a hopper)."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "6FC8E9161EF5868F"
+			tasks: [{
+				id: "11577FA46FF5D63C"
+				type: "item"
+				item: "thermal:charge_bench"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.0d
+			description: ["The Tinker's Workbench is a block that can charge, fill, and apply augments to tools and blocks. It has two modes, charge/refill and augment, which you can toggle between using the button below the item slot in the GUI. Augments are only fully installed when you toggle modes or take the tool/block out."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "0CD44573BBB580BF"
+			tasks: [{
+				id: "7771854EEB8AA6EB"
+				type: "item"
+				item: "thermal:tinker_bench"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 5.5d
+			description: ["The Redstone Flux Cell can be used to store and distribute Redstone Flux (RF). Each side can be configured to in/output energy, and the cell can be configured to auto-input/output. The RF cell starts with 1,000,000RF storage capacity and 1,000rf/t max in/out, which can be improved using augments. Provides a comparator output proportional to how full it is. Holding and certain augments can be applied to improve RF Capacity."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "69D09AD806AD64A2"
+			tasks: [{
+				id: "379E9E072DDA5208"
+				type: "item"
+				item: {
+					id: "thermal:energy_cell"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							EnergyMax: 1000000
+							EnergySend: 1000
+							Energy: 0
+							EnergyRecv: 1000
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 5.5d
+			description: ["The Portable Tank can be used to store and distribute fluids. The fluid cell starts with 8,000mb of capacity, which can be improved by upgrading it with a crafting table. It can only store one fluid at a time. Shift click to change the output on the bottom to drain."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "4B9C4D019DA2BD82"
+			tasks: [{
+				id: "60C7E3C13132C4F6"
+				type: "item"
+				item: {
+					id: "thermal:fluid_cell"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							TankInv: [{
+								FluidName: "minecraft:empty"
+								Capacity: 32000
+								Tank: 0b
+								Amount: 0
+							}]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 3.0d
+			description: ["The Arboreal Extractor is a device that extracts fluid from an adjacent tree. Can optionally take fertilizer to boost production rate. Bonemeal boosts output by 1.5x for 8 cycles, while phyto-gro boosts by 2.0x for 16 cycles. Different trees produce different fluids; use JEI to see the available recipes."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "02A30B14BBC71BC5"
+			tasks: [{
+				id: "11CBCECF13B14A22"
+				type: "item"
+				item: "thermal:device_tree_extractor"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 5.5d
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "1E2F5A9CD5EEFD3A"
+			tasks: [{
+				id: "31B3DC30A98F4C0B"
+				type: "item"
+				item: {
+					id: "portabletanks:basic_portable_tank"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 4.5d
+			description: ["The Satchel is a bag that can hold things. It's pretty straightforward. Press the CoFH Mode Change Keybind to toggle auto-collect mode, where items are automatically stored on pickup, depending on Filter restrictions. It can be augmented in the Tinker's Workbench."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "68602CE127C06D1C"
+			tasks: [{
+				id: "127BB588D083BC02"
+				type: "item"
+				item: {
+					id: "thermal:satchel"
+					Count: 1b
+					tag: {
+						ItemInv: { }
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 4.5d
+			description: ["Holds a moderate quantity of fluid and allows for it to be dispensed. Press the CoFH mode change keybind to toggle Empty/Fill mode. Use while sneaking to activate or deactivate automatic replenishment of most other held (or worn) fluid containers. It can be filled with fluid and augmented in the Tinker's Workbench."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "71EF46DFDCE9B264"
+			tasks: [{
+				id: "7410A3F33A5A74CE"
+				type: "item"
+				item: {
+					id: "thermal:fluid_reservoir"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 4.5d
+			description: ["Stores RF and charges items in your inventory. It has 3 modes, allowing you to charge just your hotbar and armor, just your inventory, or everything, togglable using the change mode keybind. In order to toggle item charging on and off, shift right click while holding the capacitor. It can also be used to put energy in machines. It can be charged and augmented in the Tinker's Workbench."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "7E44AD0E618116D4"
+			tasks: [{
+				id: "65FE20A4C6BA8948"
+				type: "item"
+				item: {
+					id: "thermal:flux_capacitor"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 2.5d
+			description: ["The FluxoMagnet is a tool that uses RF in order to pull nearby items into the player's inventory. Right clicking with it in hand will suck nearby items in. Press mode change keybind to toggle auto-attract mode, where items are nearby items are automatically pulled in. It can be charged and augmented in the Tinker's Workbench."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "4E0B8ECB0D4E92C4"
+			tasks: [{
+				id: "51EA9C9D0310C621"
+				type: "item"
+				item: {
+					id: "thermal:flux_magnet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 6.5d
+			description: ["Used to infuse yourself, mobs, or other players with potion effects. Press the CoFH mode change keybind to toggle automatic infusion, which regularly infuses you with small doses. It can be filled with potion fluid and augmented in the Tinker's Workbench"]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "0C371258CA7F1656"
+			tasks: [{
+				id: "6A32BA7C3DE32F14"
+				type: "item"
+				item: {
+					id: "thermal:potion_infuser"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 6.5d
+			description: ["Used to store and imbue arrows with potion effects. Right click with the quiver in your hand to transfer arrows from your inventory into the quiver. Press the mode change keybind to toggle imbuement, which takes 50mb of the stored oituib fluid per arrow. The quiver can be filled and augmented in the Tinker's Workbench."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "7C3BFC578B5C836C"
+			tasks: [{
+				id: "6E80BD762D6C614A"
+				type: "item"
+				item: {
+					id: "thermal:potion_quiver"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 3.5d
+			description: [
+				"Uses RF to mine stone- and dirt-type blocks efficiently. It can be charged and augmented in the Tinker's Workbench. A reinforced or higher integral component is needed to mine obsidian. After installing radius augments, press the CoFH mode change keybind to change between mining radii. It can be enchanted with Holding to improve RF Capacity."
+				""
+			]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "5753F176F58B0E66"
+			tasks: [{
+				id: "67E985EB3FCE29E0"
+				type: "item"
+				item: {
+					id: "thermal:flux_drill"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 3.5d
+			description: ["Uses RF to mine wood-type blocks with ease. Right click strips wood logs as usual. It can be charged and augmented in the Tinker's Workbench. After installing radius augments, press the mode change keybind to change between mining radii. It can be enchanted with Holding to improve RF Capacity."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "2606C9FDF997B63A"
+			tasks: [{
+				id: "1317ED5360DD2E7F"
+				type: "item"
+				item: {
+					id: "thermal:flux_saw"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 2.5d
+			description: ["Jetpacks allow you to fly like using a jetpack to help with building and travelling."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "2910378214947B5A"
+			tasks: [{
+				id: "58B6398DDEA4B13D"
+				type: "item"
+				item: {
+					id: "simplyjetpacks:jetpack_te1"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 2.5d
+			description: ["Angel Rings allow you to fly like in creative mode to help with building and travelling."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "4C57B63019A1F756"
+			tasks: [{
+				id: "49CF79771424661A"
+				type: "item"
+				item: "angelring:leadstone_angel_ring"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.5d
+			description: ["Upgrade augments improve the overall stats of machines, devices, dynamos, and tools; they scale the base RF storage/transfer, fluid storage/transfer, and RF/t usage/generation. This overall scale factor stacks with other augment modifiers, even if they are underlined. However, as with all other underlined modifiers, only the highest scale factor modifier applies."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "589606DC93BF2AB7"
+			tasks: [{
+				id: "5C5EDD306AE866C6"
+				type: "item"
+				item: "thermal:upgrade_augment_1"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -0.5d
+			description: ["Upgrade augments improve the overall stats of machines, devices, dynamos, and tools; they scale the base RF storage/transfer, fluid storage/transfer, and RF/t usage/generation. This overall scale factor stacks with other augment modifiers, even if they are underlined. However, as with all other underlined modifiers, only the highest scale factor modifier applies."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "00B2A88937471BF5"
+			tasks: [{
+				id: "29C78BC8E953A44F"
+				type: "item"
+				item: "thermal:upgrade_augment_2"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.5d
+			description: ["Upgrade augments improve the overall stats of machines, devices, dynamos, and tools; they scale the base RF storage/transfer, fluid storage/transfer, and RF/t usage/generation. This overall scale factor stacks with other augment modifiers, even if they are underlined. However, as with all other underlined modifiers, only the highest scale factor modifier applies."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "7E277CEE9C5BF99D"
+			tasks: [{
+				id: "4E6A01ABE7817CE0"
+				type: "item"
+				item: "thermal:upgrade_augment_3"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.5d
+			description: ["Upgrade augments improve the overall stats of machines, devices, dynamos, and tools; they scale the base RF storage/transfer, fluid storage/transfer, and RF/t usage/generation. This overall scale factor stacks with other augment modifiers, even if they are underlined. However, as with all other underlined modifiers, only the highest scale factor modifier applies."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "2B6E163A5FBA017F"
+			tasks: [{
+				id: "55B57A14D9CC4FB3"
+				type: "item"
+				item: "thermal_extra:dragon_integral_component"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -1.5d
+			description: ["The Expanded RF Coil augment scales RF storage and transfer by 4."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "530E37CE83ACB016"
+			tasks: [{
+				id: "7F75AF55796C4523"
+				type: "item"
+				item: "thermal:rf_coil_augment"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -0.5d
+			description: ["The Stabilized RF Coil augment scales the RF storage by 6 and the RF transfer by 2."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "32036D6F752D31F8"
+			tasks: [{
+				id: "55828B9FFFF9C60A"
+				type: "item"
+				item: "thermal:rf_coil_storage_augment"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 0.5d
+			description: ["The High-Flux RF Coil augment scales the RF storage by 2 and the RF transfer by 6."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "11F0772297C5B585"
+			tasks: [{
+				id: "23F0742010EFDDAC"
+				type: "item"
+				item: "thermal:rf_coil_xfer_augment"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 1.5d
+			description: ["The Advanced RF Coil augment scales RF storage and transfer by 6."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "37CAB63FA04BEE1D"
+			tasks: [{
+				id: "657BB648CB2BD81D"
+				type: "item"
+				item: "thermal_extra:advanced_rf_coil_augment"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 2.5d
+			description: ["The Advanced (Stabalized) RF Coil Storage augment scales the RF storage by 8 and the RF transfer by 4."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "076E4905B60C4D0E"
+			tasks: [{
+				id: "61D212E042B0CBCE"
+				type: "item"
+				item: "thermal_extra:advanced_rf_coil_storage_augment"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.5d
+			description: ["The Advanced High-Flux RF Coil augment scales the RF storage by 4 and the RF transfer by 8."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "055E6B3405F34CDC"
+			tasks: [{
+				id: "26E118BD513C0AC7"
+				type: "item"
+				item: "thermal_extra:advanced_rf_coil_xfer_augment"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -1.5d
+			description: ["The Expanded Tank Construction augment scales the size of all fluid storage in a machine, device, dynamo, or tool by 4."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "7A1EB1FF98192EEC"
+			tasks: [{
+				id: "745F86E70B3A0735"
+				type: "item"
+				item: "thermal:fluid_tank_augment"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -0.5d
+			description: ["The Advanced Tank Construction augment scales the size of all fluid storage in a machine, device, dynamo, or tool by 12."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "7EA15813BBEF196A"
+			tasks: [{
+				id: "1281A7B9A671F10E"
+				type: "item"
+				item: "thermal_extra:advanced_fluid_tank_augment"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 0.5d
+			description: ["The Bigger Tank Construction augment scales the size of all fluid storage in a machine, device, dynamo, or tool by 32!"]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "4CC649B9F6E8035A"
+			tasks: [{
+				id: "126134D1430FAE72"
+				type: "item"
+				item: "thermal_extra:bigger_fluid_tank_augment"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 1.5d
+			description: ["The Flux Linkage Amplifier augment increases maximum RF usage rate by 100% but also scales the RF per operation by 1.1."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "00BD3BC5C3C5BC7C"
+			tasks: [{
+				id: "328AD960782E6860"
+				type: "item"
+				item: "thermal:machine_speed_augment"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 2.5d
+			description: ["The Radial Enhancement Augment allows your tool or machine to affect a greater area around it. Each augment will increase the maximum area by 1 block in every direction."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "24F5E01F182C20AA"
+			tasks: [{
+				id: "1C52E3DEC9FF1031"
+				type: "item"
+				item: "thermal:area_radius_augment"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 1.5d
+			description: ["The Flux Linkage Amplifier augment increases maximum RF usage rate by 115% but also scales the RF per operation by 1.2."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "39D838EC555EFDD2"
+			tasks: [{
+				id: "52E918B18238973E"
+				type: "item"
+				item: "thermal_extra:advanced_machine_speed_augment"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 2.5d
+			description: ["The Radial Enhancement Augment allows your tool or machine to affect a greater area around it. Each augment will increase the maximum area by 5 blocks in every direction."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "1D8450A616A19CB3"
+			tasks: [{
+				id: "1494BC3C9D1C4A8A"
+				type: "item"
+				item: "thermal_extra:advanced_area_radius_augment"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 0.5d
+			description: ["The Flux Efficiency augment reduces the RF required per operation, scaling it by 0.9, but also decreases the maximum RF usage rate of the machine by 10%."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "38BF116155F459B5"
+			tasks: [{
+				id: "6F04A667498BFCC2"
+				type: "item"
+				item: "thermal:machine_efficiency_augment"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -0.5d
+			description: ["The Auxiliary Process Sieve augment increases chances of secondary output by 15% but scales the energy per operation by 1.25."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "7E94853F6ECB81CF"
+			tasks: [{
+				id: "2EA370D13FBBB250"
+				type: "item"
+				item: "thermal:machine_output_augment"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -1.5d
+			description: ["The Catalytic Reclamation Chamber augment scales the chance for a catalyst to be used by 0.8x but also scales the energy used per operation by 1.25x."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "464B51BDCDA6867E"
+			tasks: [{
+				id: "0FE0BA20484A57F6"
+				type: "item"
+				item: "thermal:machine_catalyst_augment"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -1.5d
+			description: ["The Auxiliary Reaction Chamber augment increases maximum generation of a dynamo by 100% but scales the efficiency by 0.9."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "6DCAD39BD22979C2"
+			tasks: [{
+				id: "43FB3A25FC2A3EA6"
+				type: "item"
+				item: "thermal:dynamo_output_augment"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -0.5d
+			description: ["The Multi-Cycle Injectors augment scales the fuel efficiency of a dynamo by 1.1."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "2A136CD8B92E2A11"
+			tasks: [{
+				id: "0A308C876CFD6661"
+				type: "item"
+				item: "thermal:dynamo_fuel_augment"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 0.5d
+			description: ["The Alchemical Amplifier augment increases the effect of the stored potion by 1 level but decreases its duration by 25%. Stacking 4 results in potions with no duration, rendering many useless."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "0DEAD92E4EC43ABB"
+			tasks: [{
+				id: "74A1B20CBA78F05C"
+				type: "item"
+				item: "thermal:potion_amplifier_augment"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 1.5d
+			description: ["The Alchemical Extender augment increases duration of potions by 100%. Has no effect on potions that have instant, one-time effects (instant potions)."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "204D38BD722240A5"
+			tasks: [{
+				id: "367205CA788AEDF1"
+				type: "item"
+				item: "thermal:potion_duration_augment"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 2.5d
+			description: ["Prevents RF from being lost due to coil saturation."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "02757C33F3E23FA0"
+			tasks: [{
+				id: "5EA968736AF359CA"
+				type: "item"
+				item: "thermal:dynamo_throttle_augment"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 2.5d
+			description: ["Products can automatically go back into the input slot on use of this augment."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "22484D37E9155426"
+			tasks: [{
+				id: "7E8AB3AEA7946001"
+				type: "item"
+				item: "thermal:machine_cycle_augment"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 1.5d
+			description: ["Destroys non primary outputs"]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "19704D95047371BC"
+			tasks: [{
+				id: "1971FF72A3368E47"
+				type: "item"
+				item: "thermal:machine_null_augment"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 0.5d
+			description: ["Allows XP to be stored and retrieved."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "1CFAA60F044C7AED"
+			tasks: [{
+				id: "3E24611B94005AD6"
+				type: "item"
+				item: "thermal:xp_storage_augment"
+			}]
+		}
+		{
+			x: -8.0d
+			y: -1.5d
+			description: ["The Item Filter augment allows a machine, device, or piece of equipment to selectively accept items. The filter can be configured in a separate GUI, accessible by shift right-clicking the block or item it is installed in, or through a tab in the block's GUI."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "43BE9A095D6CD143"
+			tasks: [{
+				id: "29D7004E3B07AE1C"
+				type: "item"
+				item: "thermal:item_filter_augment"
+			}]
+		}
+		{
+			x: -8.0d
+			y: -0.5d
+			description: ["The Item Filter augment allows a machine, device, or piece of equipment to selectively accept items. The filter can be configured in a separate GUI, accessible by shift right-clicking the block or item it is installed in, or through a tab in the block's GUI."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "34C8647DC08679E4"
+			tasks: [{
+				id: "69CAE272195D24DC"
+				type: "item"
+				item: "thermal_extra:advanced_item_filter_augment"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 4.5d
+			description: ["Inferno explosives light an area on fire and light mobs caught in its radius on fire. Explosive blocks and grenades have radii of 9 and 5 blocks, respectively."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "0B0272BF31475A7A"
+			tasks: [{
+				id: "34F5995F7376CD3C"
+				type: "item"
+				item: "thermal:fire_tnt"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 5.5d
+			description: ["Glacial explosives will freeze blocks in an area and grant mobs caught in its radius the Chilled II effect. Explosive blocks and grenades have radii of 9 and 5 blocks, respectively."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "2E56D5FE63C33512"
+			tasks: [{
+				id: "43B0B4A35C2A1D89"
+				type: "item"
+				item: "thermal:ice_tnt"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 4.5d
+			description: ["Fulminating explosives summon lightning in an area and grant mobs caught in its radius the Shocked II effect. Explosive blocks and grenades have radii of 9 and 5 blocks, respectively."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "0BCCDA3E67D6E83C"
+			tasks: [{
+				id: "15B60FE7F1A46862"
+				type: "item"
+				item: "thermal:lightning_tnt"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 5.5d
+			description: ["Tectonic Explosives will break and drop stone- and dirt- type blocks in an area and grant mobs caught in its radius the Sundered II effect. Useful for mining. Explosive blocks and grenades have radii of 9 and 5 blocks, respectively. Legend has it that these were once powerful enough to break bedrock."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "74165CDF78A1C75E"
+			tasks: [{
+				id: "4B2195929F36300E"
+				type: "item"
+				item: "thermal:earth_tnt"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 4.5d
+			description: ["Disruption Explosives create an ender disruption lasting 10s that teleports most mobs/players inside it to a random location up to 128 blocks away. The initial explosion damages and stops endermen and endermites from teleporting for 15s. Explosive blocks and grenades explode with radii of 9 and 5 blocks, respectively. Like endermen, these explosives lose their efficacy under water!"]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "7B0CCFCA7AABAE03"
+			tasks: [{
+				id: "6D0B9AF680989747"
+				type: "item"
+				item: "thermal:ender_tnt"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 5.5d
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "75328362E4B65D82"
+			tasks: [{
+				id: "04A72AB0904133AB"
+				type: "item"
+				item: "thermal:glowstone_tnt"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 6.5d
+			description: ["Redstone Explosives will produce a redstone flux excitation field upon explosion, activating any redstone components and devices within its area of effect. This field will persist for 10s. Explosive blocks and grenades create fields with radii of 9 and 5 blocks, respectively."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "20C4703AFA808701"
+			tasks: [{
+				id: "3720B780C4B5DD6F"
+				type: "item"
+				item: "thermal:redstone_tnt"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 6.5d
+			description: ["Slime Explosives will knock back all mobs and players caught in its explosion and cover them with slime, temporarily giving them the Slimed effect. Mobs and players with this effect will be able to bounce on surfaces, as if they were landing on slime blocks. Explosive blocks and grenades have radii of 9 and 5 blocks, respectively."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "69D886868D08340A"
+			tasks: [{
+				id: "3A685F133D41B23E"
+				type: "item"
+				item: "thermal:slime_tnt"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 4.5d
+			description: ["Inferno explosives light an area on fire and light mobs caught in its radius on fire. Explosive blocks and grenades have radii of 9 and 5 blocks, respectively."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "1B65EE6DBD41461C"
+			tasks: [{
+				id: "0C4A1A6C74F647FE"
+				type: "item"
+				item: "thermal:fire_grenade"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 5.5d
+			description: ["Glacial explosives will freeze blocks in an area and grant mobs caught in its radius the Chilled II effect. Explosive blocks and grenades have radii of 9 and 5 blocks, respectively."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "5F8E6A2AD9CD92B2"
+			tasks: [{
+				id: "713CE0ADC26AB65F"
+				type: "item"
+				item: "thermal:ice_grenade"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.5d
+			description: ["Fulminating explosives summon lightning in an area and grant mobs caught in its radius the Shocked II effect. Explosive blocks and grenades have radii of 9 and 5 blocks, respectively."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "09E9303A78F98790"
+			tasks: [{
+				id: "35BA5AE7327CC32B"
+				type: "item"
+				item: "thermal:lightning_grenade"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 5.5d
+			description: ["Tectonic Explosives will break and drop stone- and dirt- type blocks in an area and grant mobs caught in its radius the Sundered II effect. Useful for mining. Explosive blocks and grenades have radii of 9 and 5 blocks, respectively. Legend has it that these were once powerful enough to break bedrock."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "087D8DDBA48B7E9B"
+			tasks: [{
+				id: "37E99176141F15FD"
+				type: "item"
+				item: "thermal:earth_grenade"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 4.5d
+			description: ["Disruption Explosives create an ender disruption lasting 10s that teleports most mobs/players inside it to a random location up to 128 blocks away. The initial explosion damages and stops endermen and endermites from teleporting for 15s. Explosive blocks and grenades explode with radii of 9 and 5 blocks, respectively. Like endermen, these explosives lose their efficacy under water!"]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "7791C75A33290835"
+			tasks: [{
+				id: "5A05EAA9AE2AFC17"
+				type: "item"
+				item: "thermal:ender_grenade"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 5.5d
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "6F726332996D9BDF"
+			tasks: [{
+				id: "2C1B1056A195EA8D"
+				type: "item"
+				item: "thermal:glowstone_grenade"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 6.5d
+			description: ["Redstone Explosives will produce a redstone flux excitation field upon explosion, activating any redstone components and devices within its area of effect. This field will persist for 10s. Explosive blocks and grenades create fields with radii of 9 and 5 blocks, respectively."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "71FFB70849E6B2D0"
+			tasks: [{
+				id: "1418FB924BE53F17"
+				type: "item"
+				item: "thermal:redstone_grenade"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 6.5d
+			description: ["Slime Explosives will knock back all mobs and players caught in its explosion and cover them with slime, temporarily giving them the Slimed effect. Mobs and players with this effect will be able to bounce on surfaces, as if they were landing on slime blocks. Explosive blocks and grenades have radii of 9 and 5 blocks, respectively."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "3B0C0B8A07EE7D08"
+			tasks: [{
+				id: "686D38E5D9874EAD"
+				type: "item"
+				item: "thermal:slime_grenade"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 6.5d
+			description: ["Portable XP Storage! The Insightful Crystal can hold 10K exp, equivalent to about 63 levels. This can be increased by enchanting it with Holding."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "63B777568B211CAB"
+			tasks: [{
+				id: "3A599122AFF77352"
+				type: "item"
+				item: {
+					id: "thermal:xp_crystal"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.5d
+			description: ["Bronze is a material added and used by many various mods such as Thermal. It can be created using 3 copper and 1 tin."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "7B2C8D4F6087B053"
+			tasks: [{
+				id: "623A9BD5D78CF6DC"
+				type: "item"
+				item: "thermal:bronze_ingot"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			description: ["Electrum is a material added and used by many various mods such as Thermal. It can be created using 1 pink gold and 1 silver."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "1FCA910231D62144"
+			tasks: [{
+				id: "47F6147789596C85"
+				type: "item"
+				item: "thermal:electrum_ingot"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -2.5d
+			description: ["Invar is a material added and used by many various mods such as Thermal. It can be created using 2 iron and 1 nickel."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "2F10FD0C75C076F6"
+			tasks: [{
+				id: "4156B8F0C0D7C43D"
+				type: "item"
+				item: "thermal:invar_ingot"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.5d
+			description: ["Constantan is a material added and used by many various mods such as Thermal. It can be created using 1 copper and 1 nickel."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "5CAF9C87057636C5"
+			tasks: [{
+				id: "3148CF19671C06B6"
+				type: "item"
+				item: "thermal:constantan_ingot"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -7.5d
+			subtitle: "Signalum is a material added and is unique to Thermal. It can be created using 1 silver, 3 copper, and 4 redstone."
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "61C4278693E57394"
+			tasks: [{
+				id: "22CE8E0A3AE58C8D"
+				type: "item"
+				item: "thermal:signalum_ingot"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.5d
+			description: ["Lumium is a material added and is unique to Thermal. It can be created using 1 silver, 3 tin, and 2 glowstone."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "79B923F59BBE89DD"
+			tasks: [{
+				id: "300F36308E7DBE79"
+				type: "item"
+				item: "thermal:lumium_ingot"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -6.5d
+			description: ["Enderium is a material added and is unique to Thermal. It can be created using 1 diamond, 3 lead, and 2 ender pearls."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "4D9ADC8EFBAA64EF"
+			tasks: [{
+				id: "1CFA343671AA414B"
+				type: "item"
+				item: "thermal:enderium_ingot"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -3.5d
+			description: ["Steel is a material added and used by many various mods such as Thermal. It can be created using 1 coal coke and one iron."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "516A618BD1B216A0"
+			tasks: [{
+				id: "08786848B039654B"
+				type: "item"
+				item: "thermal:steel_ingot"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -8.5d
+			subtitle: "NOTE: This is a newer alloy and has few uses currently!"
+			description: ["Dragon Enderium is a material added and is unique to Thermal. It can be created using 2 dragon's breath and 1 enderium."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "49C1620FF36D7BB5"
+			tasks: [{
+				id: "72D91B345F1A6680"
+				type: "item"
+				item: "thermal_extra:dragon_enderium_ingot"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 2.0d
+			description: ["The Hive Hopper is a device that can extract honeycombs and liquid honey when placed under a beehive."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "5E0129FB0B3A1D4C"
+			tasks: [{
+				id: "48A7F6D1253E1084"
+				type: "item"
+				item: "thermal:device_hive_extractor"
+			}]
+		}
+		{
+			title: "Phyto-Soil Infuser"
+			x: 7.0d
+			y: 3.0d
+			description: ["The Phyto-Soil Infuser is a device that uses RF in order to speed up the growth of crops on nearby phyto-soil. In its base form, it infuses a 3x3x3 area around it, which can be upgraded using radial enhancements. Integral components increase the growth boost effect."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "6615496C3D934579"
+			tasks: [{
+				id: "773C314EF1330105"
+				type: "item"
+				item: "thermal:device_soil_infuser"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 3.5d
+			description: ["Uses to water crops to accelerate their growth. It can be filled and augmented in the Tinker's Workbench. After installing radius augments, press the CoFH mode change keybind to change between different radii. It can be enchanted with Holding to improve water capacity."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "3F177371B612262F"
+			tasks: [{
+				id: "395DAC62D2179D57"
+				type: "item"
+				item: {
+					id: "thermal:watering_can"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -8.5d
+			subtitle: "NOTE: This is a newer alloy and has few uses currently!"
+			description: ["Dragon Bronze is a material added and is unique to Thermal. It can be created using 1 dragon's breath and 1 bronze (or 3 copper and 1 tin)."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "32C83DCCA09BE910"
+			tasks: [{
+				id: "5CB2F16B7D5AF673"
+				type: "item"
+				item: "thermal_extra:dragon_bronze_ingot"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -6.5d
+			subtitle: "NOTE: This is a newer alloy and has few uses currently!"
+			description: ["Nebulium is a material added and is unique to Thermal. It can be created using 1 popper chorus fruit and 1 netherite."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "60999C3906F582F4"
+			tasks: [{
+				id: "09279C97FE106740"
+				type: "item"
+				item: "thermal_extra:nebulium_ingot"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -7.5d
+			subtitle: "NOTE: This is a newer alloy and has no uses currently!"
+			description: ["Vulkaium is a material added and is unique to Thermal. It can be created using 1 popper chorus fruit and 1 netherite."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "533D0F64004AA7F7"
+			tasks: [{
+				id: "52177173654F2922"
+				type: "item"
+				item: "thermal_extra:vukaium_ingot"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -5.5d
+			subtitle: "NOTE: This is a newer alloy and has few uses currently!"
+			description: ["Polarium is a material added and is unique to Thermal. It can be created using 1 lead and 2 snowballs."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "798ED691040E22C5"
+			tasks: [{
+				id: "0FC4986B7F107BC9"
+				type: "item"
+				item: "thermal_extra:polarium_ingot"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			subtitle: "NOTE: This is a newer alloy and has no uses currently!"
+			description: ["Nectium is a material added and is unique to Thermal. It can be created using 1 constantan and 1 honey block."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "0746EEEBCB9336C1"
+			tasks: [{
+				id: "5400A69A7D9A90B5"
+				type: "item"
+				item: "thermal_extra:nectium_ingot"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.5d
+			subtitle: "NOTE: This is a newer alloy and has few uses currently!"
+			description: ["Zauvium is a material added and is unique to Thermal. It can be created using 1 electrum and 1 quartz."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "374D2CAD8C3B78F8"
+			tasks: [{
+				id: "3D81EA9CD69167B9"
+				type: "item"
+				item: "thermal_extra:zauvium_ingot"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -4.5d
+			subtitle: "NOTE: This is a newer alloy and has few uses currently!"
+			description: ["Drownium is a material added and is unique to Thermal. It can be created using 1 invar and 1 prismarine."]
+			dependencies: ["0FB20526CAD82C9A"]
+			id: "3D7049F4D491CBC8"
+			tasks: [{
+				id: "49B13474641314CE"
+				type: "item"
+				item: "thermal_extra:drownium_ingot"
+			}]
+		}
+	]
+}

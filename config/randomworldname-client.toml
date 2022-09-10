@@ -1,0 +1,17 @@
+
+#Name Lists
+[names]
+	#List of place names
+	places = ["Fortress", "Citadel", "Forest", "Island", "Planet", "Temple", "Orchard", "Tower", "Dungeon", "Castle", "Nation", "Kingdom", "Mountain", "Cave", "Pillar", "Graveyard", "Gardens", "Library", "Mausoleum", "Chapel", "Cathedral", "Altar", "Vault", "Tomb", "Prison", "Oubliette", "Spire", "Ziggurat"]
+	#List of adjectives
+	adjectives = ["Solitude", "Sorrow", "Life", "Death", "Wealth", "Greed", "Lust", "Wrath", "Pride", "Sloth", "Envy", "Gluttony", "Avarice", "Chastity", "Temperance", "Charity", "Diligence", "Patience", "Kindness", "Humility", "Righteousness", "Piety", "Sacrilege", "Fire", "Ice", "Power", "Rapture", "Wanderlust", "Light", "Darkness", "Hope", "Despair", "Desolation", "Abundance", "Fortitude", "Energy", "Evil", "Doom", "Stone", "Iron", "Gold", "Diamond"]
+
+#Name Lists
+[location]
+	#X Coordinate for the button
+	#Range: > 0
+	x = 110
+	#Y Coordinate for the button
+	#Range: > 0
+	y = 60
+

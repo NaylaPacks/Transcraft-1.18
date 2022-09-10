@@ -1,0 +1,11 @@
+{
+	id: "6FC04B3258D4C7CC"
+	group: "1065D30075B0A5C8"
+	order_index: 7
+	filename: "xnet"
+	title: "XNet"
+	icon: "xnet:controller"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

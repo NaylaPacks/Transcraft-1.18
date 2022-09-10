@@ -1,0 +1,279 @@
+{
+	id: "5D7A7F144295A163"
+	group: "707483CB7383B156"
+	order_index: 3
+	filename: "functional_storage"
+	title: "Functional Storage"
+	icon: "functionalstorage:oak_1"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "532AB2982A0BEF86"
+			tasks: [{
+				id: "72AD1EB2F4E42EDB"
+				type: "item"
+				item: "functionalstorage:oak_1"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			id: "472564C939E983FC"
+			tasks: [{
+				id: "2B503E10C56FE830"
+				type: "item"
+				item: "functionalstorage:framed_1"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			id: "77E335B67B4616F1"
+			tasks: [{
+				id: "09854C335E430629"
+				type: "item"
+				item: "functionalstorage:oak_2"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			id: "0C926EDC86CD7AC4"
+			tasks: [{
+				id: "42773145895F1E69"
+				type: "item"
+				item: "functionalstorage:oak_4"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			id: "7428DCC555DC65B9"
+			tasks: [{
+				id: "1F959F3A58E0B5D2"
+				type: "item"
+				item: "functionalstorage:framed_2"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			id: "60ACB9305585DCAB"
+			tasks: [{
+				id: "1C534A038D77F08D"
+				type: "item"
+				item: "functionalstorage:framed_4"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			id: "4D6169191FAFA8BA"
+			tasks: [{
+				id: "1DE909E07404121B"
+				type: "item"
+				item: "functionalstorage:copper_upgrade"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.0d
+			id: "3E656CE224719A83"
+			tasks: [{
+				id: "3E3361A5AFEF3CDE"
+				type: "item"
+				item: "functionalstorage:diamond_upgrade"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.5d
+			id: "2B2F27CFB2257A76"
+			tasks: [{
+				id: "6B24339C4B26CF73"
+				type: "item"
+				item: {
+					id: "functionalstorage:redstone_upgrade"
+					Count: 1b
+					tag: {
+						Slot: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.5d
+			id: "652346C14C827B10"
+			tasks: [{
+				id: "419F7292BB01F59F"
+				type: "item"
+				item: "functionalstorage:iron_downgrade"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 3.0d
+			id: "6AB8E8B9F49A9F5D"
+			tasks: [{
+				id: "0F53B73FA0172408"
+				type: "item"
+				item: "functionalstorage:netherite_upgrade"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			id: "29B5346D506BE2C8"
+			tasks: [{
+				id: "7EF4505AE12BF253"
+				type: "item"
+				item: "functionalstorage:gold_upgrade"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			id: "137174E0A01549C0"
+			tasks: [{
+				id: "22F7C607397A970F"
+				type: "item"
+				item: "functionalstorage:void_upgrade"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.5d
+			id: "133C21CC1DDD58EC"
+			tasks: [{
+				id: "3F9D99F8D0670C65"
+				type: "item"
+				item: {
+					id: "functionalstorage:collector_upgrade"
+					Count: 1b
+					tag: {
+						Direction: "DOWN"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			id: "39A5942E0EB05BAE"
+			tasks: [{
+				id: "3F8BE36234B42CF1"
+				type: "item"
+				item: {
+					id: "functionalstorage:puller_upgrade"
+					Count: 1b
+					tag: {
+						Direction: "DOWN"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.0d
+			id: "539DCEC737D3D8B8"
+			tasks: [{
+				id: "6FEEDF0F0E0BE064"
+				type: "item"
+				item: {
+					id: "functionalstorage:pusher_upgrade"
+					Count: 1b
+					tag: {
+						Direction: "DOWN"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			id: "726F29D04D82DDC3"
+			tasks: [{
+				id: "470AEC00E7877964"
+				type: "item"
+				item: {
+					id: "functionalstorage:configuration_tool"
+					Count: 1b
+					tag: {
+						Mode: "LOCKING"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.5d
+			id: "0534F4E809C2A6F5"
+			tasks: [{
+				id: "4AA3B1E6AB8D3BA5"
+				type: "item"
+				item: {
+					id: "functionalstorage:linking_tool"
+					Count: 1b
+					tag: {
+						Action: "ADD"
+						Mode: "SINGLE"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.75d
+			y: -4.75d
+			id: "67566C2B11BC0982"
+			tasks: [{
+				id: "1FB98453D1B4A703"
+				type: "item"
+				item: "functionalstorage:ender_drawer"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			id: "5142EA9AAAA2FD92"
+			tasks: [{
+				id: "6FEB46C81106ACB2"
+				type: "item"
+				item: "functionalstorage:compacting_drawer"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			id: "2829E1DF72127E0D"
+			tasks: [{
+				id: "6154E85D05C58B6B"
+				type: "item"
+				item: "functionalstorage:compacting_framed_drawer"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -4.0d
+			id: "15CF126D7D299E6B"
+			tasks: [{
+				id: "44B7984B92396DA0"
+				type: "item"
+				item: "functionalstorage:armory_cabinet"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -4.0d
+			id: "4E5A70B807992772"
+			tasks: [{
+				id: "5AC6BF595FD58CC8"
+				type: "item"
+				item: "functionalstorage:storage_controller"
+			}]
+		}
+	]
+}

@@ -1,0 +1,11 @@
+{
+	id: "20CC1A73AA262E9A"
+	group: "38BD71ED2D804D23"
+	order_index: 1
+	filename: "croptopia"
+	title: "Croptopia"
+	icon: "croptopia:corn"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

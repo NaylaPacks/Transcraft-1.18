@@ -1,8 +1,8 @@
-# Nora's Packs License
+# Nayla's Packs License
 
 
-This software is Copyright (c) Nora (tm) and
-the rest of Nora's Packs. All rights reserved.
+This software is Copyright (c) Nayla (tm) and
+the rest of Nayla's Packs. All rights reserved.
 
 
 Redistribution and use in source and binary forms, with or
@@ -25,18 +25,18 @@ disclaimer in the documentation and/or other materials
 provided with the distribution.
 
 
-- The name Bleeding Edge or Cranky's Packs must not be used to
+- The name Transcraft or Nayla's Packs must not be used to
 
 endorse or promote products derived from this software without
 
-prior written permission from Cranky Supertoon.
+prior written permission from Nayla.
 
 
 - The right to distribute this software or to use it for any purpose
 
-does not give you the right to use Cranky Supertoon.name and
+does not give you the right to use the Transcraft and Nayla's Packs 
 
-branding.
+name and branding.
 
 
 -  If any files are modified, you must cause the modified files
@@ -48,7 +48,7 @@ and the date of any change.
  
 
 ### Disclaimer
-  THIS SOFTWARE IS PROVIDED BY CRANKY SUPERTOON ``AS IS''
+  THIS SOFTWARE IS PROVIDED BY NAYLA ``AS IS''
 
 AND ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING,
 
@@ -56,7 +56,7 @@ BUT  NOT LIMITED TO, THE IMPLIED WARRANTIES OF
 
 MERCHANTABILITY  AND FITNESS FOR A PARTICULAR PURPOSE
 
-ARE DISCLAIMED.  IN  NO EVENT SHALL CRANKY SUPERTOON OR
+ARE DISCLAIMED.  IN  NO EVENT SHALL NAYLA OR
 
 MY CONTRIBUTORS BE  LIABLE FOR ANY DIRECT, INDIRECT,
 
@@ -78,8 +78,8 @@ IF ADVISED OF THE POSSIBILITY OF SUCH  DAMAGE.
 
  
 
-This software consists of contributions made by Nora and many
+This software consists of contributions made by Nayla and many
 
-individuals on behalf of Nora's Packs.  Specific attributions are listed in the
+individuals on behalf of Nayla's Packs.  Specific attributions are listed in the
 
 accompanying credits file.

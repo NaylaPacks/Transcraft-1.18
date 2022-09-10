@@ -1,0 +1,161 @@
+{
+	id: "0FFB6C5712B8DA80"
+	group: "1065D30075B0A5C8"
+	order_index: 6
+	filename: "super_circuit_maker"
+	title: "Super Circuit Maker"
+	icon: "supercircuitmaker:tiny_redstone"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Welcome to Super Circuit Maker!"
+			icon: "supercircuitmaker:screwdriver"
+			x: 0.0d
+			y: 0.0d
+			description: ["Super Circuit Maker allows you to build complex redstone assemblies in a tiny space, and now it's available for Minecraft 1.18! Make anything from a simple light switch to a Create gantry quarry controller, or even a computer. Your imagination is the limit!"]
+			id: "0F9548008DBE302B"
+			tasks: [{
+				id: "088251120895CF59"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "1AAC2D9B1ECB66CA"
+				type: "item"
+				item: "supercircuitmaker:screwdriver"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			dependencies: ["0F9548008DBE302B"]
+			id: "5004CD2B73061EB6"
+			tasks: [{
+				id: "4FB8CB4B18E9FCF8"
+				type: "item"
+				item: "supercircuitmaker:circuit"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.5d
+			dependencies: ["5004CD2B73061EB6"]
+			id: "3A4DD56AF9C35A0D"
+			tasks: [{
+				id: "16306E183824D3F3"
+				type: "item"
+				item: "supercircuitmaker:delay"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.5d
+			dependencies: ["5004CD2B73061EB6"]
+			id: "348458834EEB9EB9"
+			tasks: [{
+				id: "6325CDFB7CF70657"
+				type: "item"
+				item: "supercircuitmaker:pulsar"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.5d
+			dependencies: ["5004CD2B73061EB6"]
+			id: "43B08A10AB21FDCF"
+			tasks: [{
+				id: "522F5B0F9CAAE13F"
+				type: "item"
+				item: "supercircuitmaker:note"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.5d
+			dependencies: ["5004CD2B73061EB6"]
+			id: "477E94438056FAF6"
+			tasks: [{
+				id: "088107CF02CB49F1"
+				type: "item"
+				item: "supercircuitmaker:lamp"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.5d
+			dependencies: ["5004CD2B73061EB6"]
+			id: "021C4C145F856A7B"
+			tasks: [{
+				id: "1255E82731104384"
+				type: "item"
+				item: "supercircuitmaker:button"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 3.5d
+			dependencies: ["5004CD2B73061EB6"]
+			id: "403828DA31EFB913"
+			tasks: [{
+				id: "470C26903046C3E9"
+				type: "item"
+				item: "supercircuitmaker:randomizer"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 4.0d
+			dependencies: ["5004CD2B73061EB6"]
+			id: "38BDEB1D8714F4E7"
+			tasks: [{
+				id: "604BD1FEA2CE8D0B"
+				type: "item"
+				item: "supercircuitmaker:adder"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			dependencies: ["5004CD2B73061EB6"]
+			id: "0A558ED1CF41E472"
+			tasks: [{
+				id: "6AD29AB586D78A37"
+				type: "item"
+				item: "supercircuitmaker:subtractor"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 4.0d
+			dependencies: ["5004CD2B73061EB6"]
+			id: "50DEA9C5AA4DBF5E"
+			tasks: [{
+				id: "5B66E6A2DEAC8A91"
+				type: "item"
+				item: "supercircuitmaker:multiplier"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 5.0d
+			dependencies: ["5004CD2B73061EB6"]
+			id: "1F44C226F1003277"
+			tasks: [{
+				id: "0064CE01F46EBE82"
+				type: "item"
+				item: "supercircuitmaker:divider"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 5.0d
+			dependencies: ["5004CD2B73061EB6"]
+			id: "4762449ACC58BAD5"
+			tasks: [{
+				id: "1FAD14DDDB27E0DB"
+				type: "item"
+				item: "supercircuitmaker:constant"
+			}]
+		}
+	]
+}

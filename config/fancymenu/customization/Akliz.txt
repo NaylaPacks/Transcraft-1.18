@@ -1,0 +1,108 @@
+type = menu
+
+customization-meta {
+  identifier = akliz
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  custom_menu_title = 
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = mid-centered
+  max_range_value = 100
+  min_range_value = 1
+  slider_type = range
+  x = -196
+  width = 392
+  action = custom_layout_element:fancymenu_customization_item_slider
+  actionid = e4b768ee-257f-4bcb-9929-9ec545d6bb7d1662068642808
+  y = -10
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  enable_scrolling = false
+  shadow = true
+  scale = 1.5
+  source = Let's create your     Minecraft Server.
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -195
+  width = 391
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 5f6a8cc5-7d2a-4e68-95ca-82a996f292ae1662068713635
+  y = -77
+  alignment = centered
+  height = 40
+}
+
+customization {
+  path = kubejs/mainmenu/akliz_std.png
+  orientation = mid-centered
+  x = -12
+  width = 18
+  action = addtexture
+  actionid = 14820d98-2f6b-4814-bf6b-fc7488c73ab31662068763479
+  y = -81
+  height = 18
+}
+
+customization {
+  orientation = mid-centered
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = How many players do you expect to be on the server at once?
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -152
+  width = 302
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = f4d6454e-69de-4a7b-8d51-c3810483b5f01662068821867
+  y = -28
+  alignment = centered
+  height = 40
+}
+
+customization {
+  orientation = top-right
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = closegui
+  x = -142
+  width = 133
+  actionid = 7f4bb63b-a191-44d9-89df-8fc3c7da1ae41662068879142
+  action = addbutton
+  y = 9
+  label = Back
+  value = 
+  height = 20
+}
+
+customization {
+  orientation = bottom-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui
+  x = -66
+  width = 133
+  actionid = 340f6e6c-0cbb-4929-b2ba-84b0e0ad02641662068889301
+  action = addbutton
+  y = -98
+  label = Next
+  value = akliz2
+  height = 20
+}
+

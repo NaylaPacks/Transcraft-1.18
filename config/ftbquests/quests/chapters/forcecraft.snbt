@@ -1,0 +1,11 @@
+{
+	id: "55115BCF3C435B43"
+	group: "4EDFF2CB88086862"
+	order_index: 1
+	filename: "forcecraft"
+	title: "ForceCraft"
+	icon: "forcecraft:force_furnace"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

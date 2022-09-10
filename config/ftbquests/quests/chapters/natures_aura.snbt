@@ -1,0 +1,11 @@
+{
+	id: "5CCD54E588F7BFB4"
+	group: "4E09F87C338C79C6"
+	order_index: 12
+	filename: "natures_aura"
+	title: "Nature's Aura"
+	icon: "naturesaura:gold_leaf"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

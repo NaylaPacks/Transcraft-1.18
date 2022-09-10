@@ -1,0 +1,49 @@
+type = hud
+
+customization-meta {
+  randomgroup = 1
+  keepaspectratio = false
+  backgroundimage = kubejs/mainmenu/background.png
+  renderorder = foreground
+  randommode = true
+  randomonlyfirsttime = false
+  backgroundcolor = 
+}
+
+customization {
+  visible = false
+  x = -1
+  action = editlogo
+  y = -9
+}
+
+customization {
+  orientation = mid-centered
+  x = 0
+  action = editprogressbar
+  y = 49
+  barcolor = #6a0dad
+}
+
+customization {
+  path = kubejs/modpack/adg.png
+  orientation = bottom-right
+  x = 0
+  width = 51
+  action = addtexture
+  actionid = c5a96a52-3e47-4b4c-b80d-d0316e46b7221660663800977
+  y = 0
+  height = 37
+}
+
+customization {
+  path = kubejs/mainmenu/logo.png
+  orientation = top-centered
+  x = 0
+  width = 244
+  action = addtexture
+  actionid = 647ae591-4e00-4247-be90-eb2a23b300701660694293761
+  y = 29
+  height = 123
+}
+

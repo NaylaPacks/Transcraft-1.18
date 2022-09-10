@@ -1,0 +1,11 @@
+{
+	id: "40C399E2AC33DCE0"
+	group: "1065D30075B0A5C8"
+	order_index: 2
+	filename: "integrated_dynamics"
+	title: "Integrated Dynamics"
+	icon: "integrateddynamics:portable_logic_programmer"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

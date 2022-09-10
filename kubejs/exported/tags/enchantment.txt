@@ -1,0 +1,22 @@
+To refresh this file, delete it and run /reload command again! Last updated: Aug 27, 2022, 3:49:14 PM
+
+#tetra:additions/blunt_weapon
+- minecraft:looting
+
+#twilightforest:phantom_armor_banned_enchants
+- minecraft:vanishing_curse
+- minecraft:binding_curse
+
+#tetra:exclusions/blunt_weapon
+- minecraft:sharpness
+
+#tetra:additions/throwable
+- minecraft:loyalty
+- minecraft:channeling
+
+#tetra:additions/edged_weapon
+- minecraft:looting
+
+#tetra:exclusions/pointy_weapon
+- minecraft:loyalty
+- minecraft:channeling

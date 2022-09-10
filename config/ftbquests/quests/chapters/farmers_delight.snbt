@@ -1,0 +1,11 @@
+{
+	id: "3D0CEDF5B02E7B26"
+	group: "38BD71ED2D804D23"
+	order_index: 3
+	filename: "farmers_delight"
+	title: "Farmer's Delight"
+	icon: "farmersdelight:stove"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

@@ -1,0 +1,17 @@
+{
+	id: "44C4274B6B1E764C"
+	group: "4E09F87C338C79C6"
+	order_index: 16
+	filename: "reliquarry"
+	title: "Reliquary"
+	icon: {
+		id: "reliquary:mercy_cross"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

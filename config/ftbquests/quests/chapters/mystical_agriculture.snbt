@@ -1,0 +1,11 @@
+{
+	id: "7CF18C20E2F211BD"
+	group: "38BD71ED2D804D23"
+	order_index: 4
+	filename: "mystical_agriculture"
+	title: "Mystical Agriculture"
+	icon: "mysticalagriculture:inferium_essence"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

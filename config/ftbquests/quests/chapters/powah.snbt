@@ -1,0 +1,11 @@
+{
+	id: "69446799EB4556FA"
+	group: "7452BCDA6D25A5F0"
+	order_index: 12
+	filename: "powah"
+	title: "Powah"
+	icon: "powah:energy_cell_hardened"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

@@ -1,0 +1,382 @@
+{
+	id: "05197756BB9B9A49"
+	group: "4E09F87C338C79C6"
+	order_index: 0
+	filename: "artifacts"
+	title: "Artifacts"
+	icon: "artifacts:universal_attractor"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 1.0d
+			y: 1.5d
+			id: "74DC98B75232E2F6"
+			tasks: [{
+				id: "777AAD114EFBDA90"
+				type: "item"
+				item: "artifacts:umbrella"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			id: "2FC3D71AAF206ECD"
+			tasks: [{
+				id: "3850F7829D6D1FC9"
+				type: "item"
+				item: "artifacts:everlasting_beef"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			id: "72552E9CD3259A9C"
+			tasks: [{
+				id: "065052362E4C8ED8"
+				type: "item"
+				item: "artifacts:eternal_steak"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			id: "11D866DC66EADBB5"
+			tasks: [{
+				id: "3F644B7722550BF5"
+				type: "item"
+				item: "artifacts:novelty_drinking_hat"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			id: "43E898F91B8C3440"
+			tasks: [{
+				id: "3F5EDA76FE00A9EE"
+				type: "item"
+				item: "artifacts:plastic_drinking_hat"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.0d
+			id: "4564915581006351"
+			tasks: [{
+				id: "5E1102A0FAF134DF"
+				type: "item"
+				item: "artifacts:snorkel"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -1.5d
+			id: "27AC94914DC7A7DE"
+			tasks: [{
+				id: "5FCC0491A3E86744"
+				type: "item"
+				item: "artifacts:night_vision_goggles"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			id: "79553B5146FEC223"
+			tasks: [{
+				id: "431B0B5291F92630"
+				type: "item"
+				item: "artifacts:villager_hat"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.5d
+			id: "2A77F18CBCCD822B"
+			tasks: [{
+				id: "2C39A0CB3CB177DF"
+				type: "item"
+				item: "artifacts:superstitious_hat"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 1.5d
+			id: "37B370D4319E2028"
+			tasks: [{
+				id: "31CB42E04AF21173"
+				type: "item"
+				item: "artifacts:lucky_scarf"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 1.5d
+			id: "0266B3AA9932723E"
+			tasks: [{
+				id: "3118D6EE17578296"
+				type: "item"
+				item: "artifacts:scarf_of_invisibility"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 1.5d
+			id: "2D48572C237F9031"
+			tasks: [{
+				id: "71E8F5E8D0B97402"
+				type: "item"
+				item: "artifacts:cross_necklace"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -1.5d
+			id: "07F9A484F1070DDD"
+			tasks: [{
+				id: "71151507BBC16069"
+				type: "item"
+				item: "artifacts:panic_necklace"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			id: "2F5895F909498184"
+			tasks: [{
+				id: "1CC6B8C3446ABC71"
+				type: "item"
+				item: "artifacts:shock_pendant"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.0d
+			id: "565EB3117E757AF8"
+			tasks: [{
+				id: "2930C0AD7B022475"
+				type: "item"
+				item: "artifacts:flame_pendant"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 3.0d
+			id: "089F50E1E31184C5"
+			tasks: [{
+				id: "5BA7012A3248B839"
+				type: "item"
+				item: "artifacts:thorn_pendant"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 3.0d
+			id: "3595C32135DAC92B"
+			tasks: [{
+				id: "7E48CFD8D1564C72"
+				type: "item"
+				item: "artifacts:charm_of_sinking"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 3.0d
+			id: "70A51F8C1BF4EC52"
+			tasks: [{
+				id: "6E33439008CB1111"
+				type: "item"
+				item: "artifacts:cloud_in_a_bottle"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.5d
+			id: "238FECE1C521FB3E"
+			tasks: [{
+				id: "2A1A07E4CF1E2FB0"
+				type: "item"
+				item: "artifacts:obsidian_skull"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.5d
+			id: "17272C5E68E6C0A6"
+			tasks: [{
+				id: "687CFC40297E328A"
+				type: "item"
+				item: "artifacts:antidote_vessel"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.5d
+			id: "2AEB4408D6094280"
+			tasks: [{
+				id: "6D23224E6BEC2F51"
+				type: "item"
+				item: "artifacts:universal_attractor"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 4.5d
+			id: "2A737F03B95A20FC"
+			tasks: [{
+				id: "68D497D0DAB4C5A7"
+				type: "item"
+				item: "artifacts:crystal_heart"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 4.5d
+			id: "393E42B762F15C0B"
+			tasks: [{
+				id: "5F58F4986EE01F27"
+				type: "item"
+				item: "artifacts:helium_flamingo"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 4.5d
+			id: "688A7CFCDE014BA3"
+			tasks: [{
+				id: "1112A56D5E53DE45"
+				type: "item"
+				item: "artifacts:digging_claws"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.5d
+			id: "4B02218B80675B8A"
+			tasks: [{
+				id: "78E263C487EB2BEA"
+				type: "item"
+				item: "artifacts:feral_claws"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.5d
+			id: "0E45BB00E2220B04"
+			tasks: [{
+				id: "7AB974077C3EC9E4"
+				type: "item"
+				item: "artifacts:power_glove"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -3.0d
+			id: "3C88FF7C3CE13C33"
+			tasks: [{
+				id: "214D9116B4CEFE31"
+				type: "item"
+				item: "artifacts:fire_gauntlet"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -3.0d
+			id: "09963CDB33E9C62D"
+			tasks: [{
+				id: "51F5A98642F03FA9"
+				type: "item"
+				item: "artifacts:pocket_piston"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -3.0d
+			id: "71544BB6606BE167"
+			tasks: [{
+				id: "161ADCB4263BD332"
+				type: "item"
+				item: "artifacts:vampiric_glove"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.0d
+			id: "2980485ABFA0E03B"
+			tasks: [{
+				id: "571BABD64D6C10D1"
+				type: "item"
+				item: "artifacts:golden_hook"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 0.0d
+			id: "4C5F9C19D9320F2A"
+			tasks: [{
+				id: "09860EE4AA9CBCAE"
+				type: "item"
+				item: "artifacts:aqua_dashers"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			id: "0A3DBF4B767B9999"
+			tasks: [{
+				id: "48AF0749C741052C"
+				type: "item"
+				item: "artifacts:bunny_hoppers"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 4.5d
+			id: "4F553A22C66EB79E"
+			tasks: [{
+				id: "17E0E745102EC1B9"
+				type: "item"
+				item: "artifacts:running_shoes"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 3.0d
+			id: "091E372A07EBE3E5"
+			tasks: [{
+				id: "16C4C3436EED7071"
+				type: "item"
+				item: "artifacts:kitty_slippers"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.0d
+			id: "79DDB62A874DDE74"
+			tasks: [{
+				id: "3114687EDE79EE5C"
+				type: "item"
+				item: "artifacts:steadfast_spikes"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 1.5d
+			id: "0B3016DA8C4EE7F4"
+			tasks: [{
+				id: "356E96E60EDEF0F2"
+				type: "item"
+				item: "artifacts:flippers"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -3.0d
+			id: "0E38796F3608C559"
+			tasks: [{
+				id: "36E7C12978477891"
+				type: "item"
+				item: "artifacts:whoopee_cushion"
+			}]
+		}
+	]
+}

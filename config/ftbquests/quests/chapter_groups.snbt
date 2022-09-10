@@ -1,0 +1,11 @@
+{
+	chapter_groups: [
+		{ id: "38BD71ED2D804D23", title: "Agriculture" }
+		{ id: "0D0E265050107B65", title: "Exploration" }
+		{ id: "1065D30075B0A5C8", title: "Logistics" }
+		{ id: "4E09F87C338C79C6", title: "Magical" }
+		{ id: "7452BCDA6D25A5F0", title: "Technology" }
+		{ id: "707483CB7383B156", title: "Storage" }
+		{ id: "4EDFF2CB88086862", title: "Weapons 'n Tools" }
+	]
+}

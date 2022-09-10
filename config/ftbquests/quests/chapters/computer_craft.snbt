@@ -1,0 +1,223 @@
+{
+	id: "6AF4D70AB84BBF9F"
+	group: "1065D30075B0A5C8"
+	order_index: 0
+	filename: "computer_craft"
+	title: "Computer Craft"
+	icon: "computercraft:computer_normal"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			description: ["The Computer is the main block of ComputerCraft. It can be placed in the world and then programmed to display messages on its screen, toggle redstone signals, and connect to Peripherals. It runs an operating system known as CraftOS and comes pre-loaded with a number of useful programs."]
+			id: "3E60DD679B4F37EF"
+			tasks: [{
+				id: "6409DE701DA0335A"
+				type: "item"
+				item: "computercraft:computer_normal"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			description: ["The Advanced Computer is an upgraded version of the standard Computer in ComputerCraft. It has all of the functionality of the simpler version, plus mouse and colored screen support."]
+			id: "3C987B8684E9C23D"
+			tasks: [{
+				id: "2F9F04865F334B37"
+				type: "item"
+				item: "computercraft:computer_advanced"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			description: ["Pocket Computers,  are computers than are held as an inventory item, allowing you to use them on the move."]
+			id: "38B3E3D0B2CF69DD"
+			tasks: [{
+				id: "4A8112A4C9535B46"
+				type: "item"
+				item: {
+					id: "computercraft:pocket_computer_normal"
+					Count: 1b
+					tag: {
+						Instanceid: 0
+						SessionId: -836946360
+						ComputerId: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			description: ["Pocket Computers,  are computers than are held as an inventory item, allowing you to use them on the move."]
+			id: "1E2773D6C0A0CA7B"
+			tasks: [{
+				id: "3025F8DB9ABE13A4"
+				type: "item"
+				item: {
+					id: "computercraft:pocket_computer_advanced"
+					Count: 1b
+					tag: {
+						Instanceid: 4
+						SessionId: -836946360
+						ComputerId: 4
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			subtitle: "I'm a robot"
+			description: [
+				"The Turtle is a block added by ComputerCraft. It is an extension of the Computer, in that it can be programmed just like one. However, turtles are more advanced, as they can be programmed to move around and interact with, place and remove blocks (once given the tools required to do so)."
+				""
+				"There are many different variations of turtles. This is because each turtle can be given two upgrades, a tool of some kind and a special \"ability\"."
+			]
+			id: "2263EE573D37570B"
+			tasks: [{
+				id: "0FDC78C913CFAA77"
+				type: "item"
+				item: "computercraft:turtle_normal"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			subtitle: "I'm a robot"
+			description: [
+				"The Turtle is a block added by ComputerCraft. It is an extension of the Computer, in that it can be programmed just like one. However, turtles are more advanced, as they can be programmed to move around and interact with, place and remove blocks (once given the tools required to do so)."
+				""
+				"There are many different variations of turtles. This is because each turtle can be given two upgrades, a tool of some kind and a special \"ability\"."
+			]
+			id: "01F1677DA062F423"
+			tasks: [{
+				id: "7308B856573C4645"
+				type: "item"
+				item: "computercraft:turtle_advanced"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.5d
+			description: ["The Monitor is a block added by ComputerCraft. It is a Peripheral that can display text on its front side. When several monitors are placed on the same plane, it will form a single monitor. The maximum size of a single monitor is 8 blocks wide and 6 blocks tall and must be rectangle shaped otherwise it will separate into multiple monitors. It is useful for displaying information in a way that lets others view it without checking the computer manually."]
+			id: "6F9056C75E5772E8"
+			tasks: [{
+				id: "4288D1FF59E381F0"
+				type: "item"
+				item: "computercraft:monitor_normal"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.5d
+			description: ["The Advanced Monitor is an upgraded version of the Monitor from ComputerCraft. It has all of the functionality of the simpler version, plus color and touchscreen support."]
+			id: "1CAB4F8986CF84F2"
+			tasks: [{
+				id: "5C546BAC1C79B97F"
+				type: "item"
+				item: "computercraft:monitor_advanced"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			description: ["The Disk Drive is a Peripheral that accepts a Floppy Disk and allows a Computer or Turtle to write files to the disk. This is very useful for creating backups or transferring programs from one computer to another."]
+			id: "0159E285C1FBCEE5"
+			tasks: [{
+				id: "3ABDFC2ACABF263A"
+				type: "item"
+				item: "computercraft:disk_drive"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.5d
+			description: ["The Floppy Disk is an item added by ComputerCraft. How they work and interact with the Computers is very similar to how they would work in the real world with a real computer: a floppy disk is a means to make one's data portable and is inserted into a Disk Drive in order to read it. This allows players to easily distribute their own software or use it as a backup."]
+			id: "188124FC2B262C87"
+			tasks: [{
+				id: "530424F55A0747E1"
+				type: "item"
+				item: {
+					id: "computercraft:disk"
+					Count: 1b
+					tag: {
+						Color: 5000268
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			description: ["The speaker peirpheral allow your computer to play notes and other sounds."]
+			id: "37A405622DB2FA1B"
+			tasks: [{
+				id: "3DF828AFCA122662"
+				type: "item"
+				item: "computercraft:speaker"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.0d
+			description: ["The Printer is a Peripheral in ComputerCraft that allows printing of Printed Page using ink (dye) and Paper. To use the Printer, it must be placed on one of the 6 sides of the Computer (top, bottom, left, right, front, and back) and the Computer must be on. Place any color of ink in the single left slot and paper in any of the top slots."]
+			id: "702B7E8A4F77D266"
+			tasks: [{
+				id: "3F05D0DD54315657"
+				type: "item"
+				item: "computercraft:printer"
+			}]
+		}
+		{
+			icon: "computercraft:wired_modem"
+			x: 0.0d
+			y: 6.0d
+			description: ["The Wired Modem is a Peripheral that allows both Computers to send messages to each other through wires."]
+			id: "3588CF052D7E046C"
+			tasks: [
+				{
+					id: "3510606473AC4043"
+					type: "item"
+					item: "computercraft:wired_modem"
+				}
+				{
+					id: "6F19C14F954901C2"
+					type: "item"
+					item: "computercraft:cable"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 6.0d
+			description: ["The Wireless Modem is a Peripheral that allows both Computers and Turtles to send messages to each other wirelessly."]
+			id: "5B66544848B173A1"
+			tasks: [{
+				id: "17FC327B8B4801C2"
+				type: "item"
+				item: "computercraft:wireless_modem_normal"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 6.0d
+			description: [
+				"The printed page is an item which is created with the printer. The contents of the page can be viewed by right clicking with it on the hotbar. Two or more can be crafted together with a string to create printed pages, or crafted together with a string and a piece of leather to create a printed book."
+				""
+				"Printed pages are 25 characters wide and 21 characters tall."
+				""
+				"Printed Page can't be read by computers. If you want to save a program, use a Floppy Disk instead."
+			]
+			id: "300B45870A8C162B"
+			tasks: [{
+				id: "152BCA972D2EA992"
+				type: "item"
+				item: "computercraft:printed_page"
+			}]
+		}
+	]
+}

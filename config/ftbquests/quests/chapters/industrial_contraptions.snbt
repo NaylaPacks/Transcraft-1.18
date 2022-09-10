@@ -1,0 +1,11 @@
+{
+	id: "23162FF1F74FCE34"
+	group: "7452BCDA6D25A5F0"
+	order_index: 8
+	filename: "industrial_contraptions"
+	title: "Industrial Contraptions"
+	icon: "ftbic:macerator"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

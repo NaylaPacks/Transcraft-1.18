@@ -1,0 +1,11 @@
+{
+	id: "2FAE9C430061030F"
+	group: "4E09F87C338C79C6"
+	order_index: 13
+	filename: "occultism"
+	title: "Occultism"
+	icon: "occultism:ritual_dummy/custom_ritual"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

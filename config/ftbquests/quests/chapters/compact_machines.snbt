@@ -1,0 +1,136 @@
+{
+	id: "06213EE4954C415A"
+	group: "707483CB7383B156"
+	order_index: 2
+	filename: "compact_machines"
+	title: "Compact Machines"
+	icon: "compactmachines:machine_normal"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "682CBA4CC492E7EF"
+			tasks: [{
+				id: "4C63A31B2B43CB4B"
+				type: "item"
+				item: "compactmachines:machine_tiny"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			id: "6237727D7778DC34"
+			tasks: [{
+				id: "3F2D6985C72C3876"
+				type: "item"
+				item: "compactmachines:machine_small"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			id: "69CD01766FA9BBFC"
+			tasks: [{
+				id: "1AA6AA636054DEB3"
+				type: "item"
+				item: "compactmachines:machine_normal"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			id: "028B1150C6F0890F"
+			tasks: [{
+				id: "383E19D06B92A4DF"
+				type: "item"
+				item: "compactmachines:machine_large"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			id: "5560C003F6000EFF"
+			tasks: [{
+				id: "77B865D1E10B9C32"
+				type: "item"
+				item: "compactmachines:machine_giant"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			id: "7DD672848B3D1DAF"
+			tasks: [{
+				id: "19E33902391618F9"
+				type: "item"
+				item: "compactmachines:machine_maximum"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			id: "66A5A7873C362374"
+			tasks: [{
+				id: "48306A900AAC22C1"
+				type: "item"
+				item: {
+					id: "compactmachines:tunnel"
+					Count: 1b
+					tag: {
+						definition: {
+							id: "compactmachines:energy"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.0d
+			id: "638EE5FE3812F961"
+			tasks: [{
+				id: "4DC5E5C6C4296485"
+				type: "item"
+				item: {
+					id: "compactmachines:tunnel"
+					Count: 1b
+					tag: {
+						definition: {
+							id: "compactmachines:fluid"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.0d
+			id: "0F161D1729F0083D"
+			tasks: [{
+				id: "4930B193C2F552D3"
+				type: "item"
+				item: {
+					id: "compactmachines:tunnel"
+					Count: 1b
+					tag: {
+						definition: {
+							id: "compactmachines:item"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.0d
+			id: "168F58DAA55EA557"
+			tasks: [{
+				id: "27390331A6FCA07E"
+				type: "item"
+				item: "compactmachines:personal_shrinking_device"
+			}]
+		}
+	]
+}

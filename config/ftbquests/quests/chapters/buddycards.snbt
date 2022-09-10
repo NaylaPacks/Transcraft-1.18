@@ -1,0 +1,11 @@
+{
+	id: "4990AAE2783226F4"
+	group: "0D0E265050107B65"
+	order_index: 2
+	filename: "buddycards"
+	title: "Buddycards"
+	icon: "buddycards:buddycard_pack_base"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

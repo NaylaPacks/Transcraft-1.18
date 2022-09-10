@@ -1,0 +1,460 @@
+{
+	id: "441132AD6E85D7EC"
+	group: "38BD71ED2D804D23"
+	order_index: 0
+	filename: "sandwichable"
+	title: "Aquaculture"
+	icon: {
+		id: "aquaculture:neptunium_fishing_rod"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -1.5d
+			id: "488C87DA5CFE1D14"
+			tasks: [{
+				id: "2878B7C25E00B1C5"
+				type: "item"
+				item: "aquaculture:neptunium_ingot"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -3.5d
+			description: ["The only difference between the rods is different durability."]
+			id: "4381570DCFD5C424"
+			tasks: [{
+				id: "2E7299E08FA519B2"
+				type: "item"
+				item: {
+					id: "aquaculture:iron_fishing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			description: ["The only difference between the rods is different durability."]
+			id: "797193BB6CD3421E"
+			tasks: [{
+				id: "6AC9B0C3FC948341"
+				type: "item"
+				item: {
+					id: "aquaculture:gold_fishing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.5d
+			description: ["The only difference between the rods is different durability."]
+			id: "1E6F2B18A037F518"
+			tasks: [{
+				id: "67C3CC141453F033"
+				type: "item"
+				item: {
+					id: "aquaculture:diamond_fishing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: -3.5d
+			description: [
+				"A worm farm is a block you can craft to obtain worms that can be used as bait for fishing."
+				""
+				"You can use any of the same items that can be used in the composter."
+				"Just right click on the worm farm with an empty hand or a non-compostable item to get the worms out."
+			]
+			id: "7B5BD163B557952E"
+			tasks: [{
+				id: "63DB43A9BECC5115"
+				type: "item"
+				item: "aquaculture:worm_farm"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.5d
+			description: ["You can make fish fillet with a fish filet knife. The amount of fish fillets you get depends on the type of fish."]
+			id: "30215D3774F19D5B"
+			tasks: [{
+				id: "532E03A246EA957C"
+				type: "item"
+				item: {
+					id: "aquaculture:wooden_fillet_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: -2.5d
+			description: ["You can make fish fillet with a fish filet knife. The amount of fish fillets you get depends on the type of fish."]
+			id: "18C1C0597002A22B"
+			tasks: [{
+				id: "13EE1302BAF48EDB"
+				type: "item"
+				item: {
+					id: "aquaculture:stone_fillet_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.5d
+			description: ["You can make fish fillet with a fish filet knife. The amount of fish fillets you get depends on the type of fish."]
+			id: "5DBA6ECE9306B785"
+			tasks: [{
+				id: "09CB07C3266CBC63"
+				type: "item"
+				item: {
+					id: "aquaculture:iron_fillet_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.5d
+			description: ["You can make fish fillet with a fish filet knife. The amount of fish fillets you get depends on the type of fish."]
+			id: "0141C5889215BD0A"
+			tasks: [{
+				id: "433003AF4FFBB13F"
+				type: "item"
+				item: {
+					id: "aquaculture:gold_fillet_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.5d
+			description: ["You can make fish fillet with a fish filet knife. The amount of fish fillets you get depends on the type of fish."]
+			id: "0EDF693C71FB9868"
+			tasks: [{
+				id: "41665E86DC3C9E58"
+				type: "item"
+				item: {
+					id: "aquaculture:diamond_fillet_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.5d
+			description: ["Makes the wearer sees better underwater."]
+			dependencies: ["488C87DA5CFE1D14"]
+			id: "24DE37EDDF1C27C1"
+			tasks: [{
+				id: "4CEDA6D5EC5FA079"
+				type: "item"
+				item: {
+					id: "aquaculture:neptunium_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 0.5d
+			description: ["Makes the wearer breathe underwater."]
+			dependencies: ["488C87DA5CFE1D14"]
+			id: "4E9ED334A688DF97"
+			tasks: [{
+				id: "4463C9F8841DE0A6"
+				type: "item"
+				item: {
+					id: "aquaculture:neptunium_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 0.5d
+			description: ["Makes the wearer fall underwater."]
+			dependencies: ["488C87DA5CFE1D14"]
+			id: "29657C3B57590FE3"
+			tasks: [{
+				id: "0E50AEA2D60FAC4F"
+				type: "item"
+				item: {
+					id: "aquaculture:neptunium_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.5d
+			description: ["Makes the wearer swim faster."]
+			dependencies: ["488C87DA5CFE1D14"]
+			id: "0A3368CDAB974AC5"
+			tasks: [{
+				id: "1FBC6BC105CFFB62"
+				type: "item"
+				item: {
+					id: "aquaculture:neptunium_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 1.5d
+			description: ["There is no mining speed penalty when underwater."]
+			dependencies: ["488C87DA5CFE1D14"]
+			id: "1D4DB9A0AFA0ED17"
+			tasks: [{
+				id: "5B9C84740EC1A2B6"
+				type: "item"
+				item: {
+					id: "aquaculture:neptunium_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.5d
+			description: ["There is no mining speed penalty when underwater."]
+			dependencies: ["488C87DA5CFE1D14"]
+			id: "54F702669B8B7B3C"
+			tasks: [{
+				id: "422D17D25F7CF217"
+				type: "item"
+				item: {
+					id: "aquaculture:neptunium_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 1.5d
+			description: ["Deals extra damage while underwater."]
+			dependencies: ["488C87DA5CFE1D14"]
+			id: "6B05A1C874023F05"
+			tasks: [{
+				id: "73B8CC0E7AF412CD"
+				type: "item"
+				item: {
+					id: "aquaculture:neptunium_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.5d
+			description: ["Deals extra damage while underwater."]
+			dependencies: ["488C87DA5CFE1D14"]
+			id: "54B777903DE7E4FA"
+			tasks: [{
+				id: "18752DCECD126A4C"
+				type: "item"
+				item: {
+					id: "aquaculture:neptunium_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			description: ["Normal arrows fired from it are not impeded underwater."]
+			dependencies: ["488C87DA5CFE1D14"]
+			id: "36934AE393406FE7"
+			tasks: [{
+				id: "4D972C9E98366ED1"
+				type: "item"
+				item: {
+					id: "aquaculture:neptunium_bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			subtitle: "An actually useful hoe."
+			description: ["Land hoe'd with this item will always be hydrated."]
+			dependencies: ["488C87DA5CFE1D14"]
+			id: "4E65378DCCFBEDDF"
+			tasks: [{
+				id: "289811998359D5A4"
+				type: "item"
+				item: {
+					id: "aquaculture:neptunium_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: -0.5d
+			description: ["20% chance to not use durability."]
+			id: "524C1E2267CE464F"
+			tasks: [{
+				id: "1ED5896A5DA6FD88"
+				type: "item"
+				item: "aquaculture:iron_hook"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.5d
+			description: ["Increased luck."]
+			id: "51DE11D335091B83"
+			tasks: [{
+				id: "14CB03FFB599E61B"
+				type: "item"
+				item: "aquaculture:gold_hook"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.5d
+			description: ["Casts farther."]
+			id: "73A8C3EB3FB7F084"
+			tasks: [{
+				id: "6B20AA98DC337B86"
+				type: "item"
+				item: "aquaculture:light_hook"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -0.5d
+			description: ["Casts shorter."]
+			id: "6C60D6835DDC0205"
+			tasks: [{
+				id: "79E2C30DDDFB765A"
+				type: "item"
+				item: "aquaculture:heavy_hook"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -0.5d
+			description: ["10% chance to catch two things."]
+			id: "06335F02E3639C08"
+			tasks: [{
+				id: "126CA4A5843135E8"
+				type: "item"
+				item: "aquaculture:double_hook"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.5d
+			description: ["Longer opportunity to reel in a fish."]
+			id: "249A95D87BEF43E3"
+			tasks: [{
+				id: "2DE8AF591AEBB387"
+				type: "item"
+				item: "aquaculture:redstone_hook"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.5d
+			description: ["Makes sound when fish is approaching"]
+			id: "40EAB7D6A9FF9863"
+			tasks: [{
+				id: "7254D08D321AE46B"
+				type: "item"
+				item: "aquaculture:note_hook"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -0.5d
+			description: ["Chance to not use durability and increased luck."]
+			id: "6A2291D3E902566D"
+			tasks: [{
+				id: "3C48136419F7C636"
+				type: "item"
+				item: "aquaculture:nether_star_hook"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.5d
+			description: ["Can store your Fishing rod, youur Fishing hook, your bait, plus Fish and additional Aquaculture Cosmentics."]
+			id: "511A616269944CAF"
+			tasks: [{
+				id: "172C6008EC0F25F1"
+				type: "item"
+				item: "aquaculture:tackle_box"
+			}]
+		}
+	]
+}

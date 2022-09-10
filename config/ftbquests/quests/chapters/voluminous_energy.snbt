@@ -1,0 +1,11 @@
+{
+	id: "1C294FFB3A4BBD82"
+	group: "7452BCDA6D25A5F0"
+	order_index: 15
+	filename: "voluminous_energy"
+	title: "Voluminous Energy"
+	icon: "voluminousenergy:compressor"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

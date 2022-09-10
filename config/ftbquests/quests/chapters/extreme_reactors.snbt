@@ -1,0 +1,11 @@
+{
+	id: "2C447A37F849BF69"
+	group: "7452BCDA6D25A5F0"
+	order_index: 6
+	filename: "extreme_reactors"
+	title: "Extreme Reactors"
+	icon: "bigreactors:basic_turbinerotorshaft"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

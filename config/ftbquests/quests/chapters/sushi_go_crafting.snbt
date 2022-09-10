@@ -1,0 +1,11 @@
+{
+	id: "2E2A24C856DD17BD"
+	group: "38BD71ED2D804D23"
+	order_index: 6
+	filename: "sushi_go_crafting"
+	title: "Sushi Go Crafting"
+	icon: "sushigocrafting:tobiko_tuna_california"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

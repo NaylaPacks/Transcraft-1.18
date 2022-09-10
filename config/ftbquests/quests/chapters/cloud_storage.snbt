@@ -1,0 +1,207 @@
+{
+	id: "0D79C3269BD2B33A"
+	group: "707483CB7383B156"
+	order_index: 1
+	filename: "cloud_storage"
+	title: "Cloud Storage"
+	icon: "cloudstorage:balloon"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Welcome to Cloud Storage!"
+			icon: "cloudstorage:guide_book"
+			x: 0.0d
+			y: 0.0d
+			description: ["Many people have heard of Cloud Storage, but many believe that it involves computers and servers and other smart people stuff. In reality, and in this mod, Cloud Storage involves tying a chest, barrel or other inventory to a balloon and sending it up to the cloud. Why? So you can access its inventory from your home, without the need of a complicated network of meteorite-sourced crystals, something you traded with elves through a portal, or even a gigantic chest."]
+			id: "164B07E174511D36"
+			tasks: [{
+				id: "5E32D309B51F146A"
+				type: "checkmark"
+				title: "Welcome to Cloud Storage!"
+			}]
+			rewards: [{
+				id: "7585465B092B08DF"
+				type: "item"
+				item: "cloudstorage:guide_book"
+			}]
+		}
+		{
+			title: "Travel to a Cloud Island"
+			x: 0.0d
+			y: 1.5d
+			dependencies: ["164B07E174511D36"]
+			id: "7A30F53F0C765D55"
+			tasks: [{
+				id: "6198B30E77A8DD67"
+				type: "advancement"
+				title: "Travel to Cloud Island"
+				advancement: "cloudstorage:cloudstorage/root"
+				criterion: ""
+			}]
+		}
+		{
+			x: -0.5d
+			y: 3.0d
+			description: ["Obtain a cloud block."]
+			dependencies: ["7A30F53F0C765D55"]
+			id: "203291DD2E5605C8"
+			tasks: [{
+				id: "6F35F17310CA2F47"
+				type: "item"
+				item: "cloudstorage:cloud"
+			}]
+		}
+		{
+			title: "Badloons"
+			x: -1.5d
+			y: 3.0d
+			description: ["Badloons are angry, yet fragile balloon monsters that attempt to punch you with their single glove, in hopes of knocking you off to your doom. However, they can be easily popped with any projectile and are deathly afraid of cactus. Badloons drop 0-2 balloon pieces when killed."]
+			dependencies: ["7A30F53F0C765D55"]
+			id: "07779CD035589A9E"
+			tasks: [{
+				id: "66353FA049A5F5D7"
+				type: "kill"
+				icon: "cloudstorage:spawn_egg_badloon"
+				entity: "cloudstorage:badloon"
+				value: 1L
+			}]
+		}
+		{
+			title: "Bloviators"
+			icon: "cloudstorage:spawn_egg_bloviator"
+			x: 1.5d
+			y: 3.0d
+			description: ["Bloviators are hostile cloud spirits that will attempt to spew gusts of wind at you to push you away - although this does no damage in itself, it is quite a nuisance. But if the weather turns from clear skies to rain, the bloviator will enter its charged, thundercloud form, zapping you with lightning instead. When killed, big bloviators split into smaller ones, just like slimes. The smallest ones have a chance of dropping a Cloud Block, and the thunder-y ones can drop a Static Cloud Block."]
+			dependencies: ["7A30F53F0C765D55"]
+			id: "64AE92677515C566"
+			tasks: [{
+				id: "120459465791DDA4"
+				type: "kill"
+				entity: "cloudstorage:bloviator"
+				value: 1L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 4.5d
+			description: [
+				"Simply dye the balloons any color of your choosing and tie one to a normal chest under the sky to send it to the cloud. Once the chest has reached world height, it has been uploaded to the cloud"
+				""
+				"Balloons have other uses too, such as slowing your fall speed and reducing fall damage, and can be tied to fences and stands for decoration. Cloud blocks also can be used to reduce fall height."
+			]
+			dependencies: ["07779CD035589A9E"]
+			id: "2ED323BF78B30A74"
+			tasks: [{
+				id: "52C0A87DA4040A6E"
+				type: "item"
+				item: "cloudstorage:balloon"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 4.5d
+			description: [
+				""
+				"You should be able to access all of its 27 slots by placing the balloon of the same color inside the cloud chest. Note that this only works if the cloud chest has skylight access! When you need more space, simply tie another balloon of the same color to a chest and send it upwards. By default, cloud chests can hold up to 4096 slots which is a lot of items."
+			]
+			dependencies: ["203291DD2E5605C8"]
+			dependency_requirement: "one_completed"
+			id: "5FFCDEFE7204AE75"
+			tasks: [{
+				id: "3DFAEE2CE88D107D"
+				type: "item"
+				item: "cloudstorage:cloud_chest"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 3.0d
+			id: "02E8D176DF09E0B5"
+			tasks: [{
+				id: "0DE41B1FF28B2CC6"
+				type: "item"
+				item: "cloudstorage:static_cloud"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 4.5d
+			description: ["Cloud chests themselves are private storage - like an ender chest, they are exclusive to you and cannot be opened by other players, or accessed by hoppers. Luckily, if you need something like that, there is the static cloud chest, made in the same way as the cloud chest but with static cloud blocks. These can be accessed by hoppers, pipes, other players, etc. as they are static and the same for everyone. To upload to the static inventory, you will need a statically-charged balloon, which you can get by rubbing a balloon against a static cloud."]
+			dependencies: ["02E8D176DF09E0B5"]
+			dependency_requirement: "one_completed"
+			id: "5D4E3C007EDFB4F3"
+			tasks: [{
+				id: "29661E2DEF20EF30"
+				type: "item"
+				item: "cloudstorage:static_cloud_chest"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.5d
+			dependencies: ["64AE92677515C566"]
+			id: "6F1FD10C63B27D17"
+			tasks: [{
+				id: "5F58EC221F67977C"
+				type: "item"
+				item: "cloudstorage:angry_cloud_in_a_bottle"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 3.0d
+			description: ["If a badloon is popped by a skeleton, it can drop a unique new music disc."]
+			dependencies: ["07779CD035589A9E"]
+			id: "7A23964634B269B7"
+			tasks: [{
+				id: "27D9520DED9B452E"
+				type: "item"
+				item: "cloudstorage:music_disc_drift"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 6.0d
+			description: ["Give it a cookiue to make it happy."]
+			dependencies: ["6F1FD10C63B27D17"]
+			id: "4CE34429D874BC01"
+			tasks: [{
+				id: "6E5FFA1C5063EAE7"
+				type: "item"
+				item: "cloudstorage:happy_cloud_in_a_bottle"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 7.5d
+			description: ["An additional new mob is added, the Balloon Buddy, who can be crafted and will be your best friend forever and ever. They have 8 possible personalities which dictate how they behave, fight, etc."]
+			dependencies: ["4CE34429D874BC01"]
+			id: "4D31105C9217DCDC"
+			tasks: [{
+				id: "561365CDAE411F0B"
+				type: "item"
+				item: {
+					id: "cloudstorage:balloon_buddy"
+					Count: 1b
+					tag: {
+						color: 15149353
+						Personality: 3
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.0d
+			description: ["Cotton candy is a new food source that can be crafted from sugar and cloud blocks."]
+			dependencies: ["64AE92677515C566"]
+			id: "27F82DEBA2B8E099"
+			tasks: [{
+				id: "4C30B61D508A0914"
+				type: "item"
+				item: "cloudstorage:cotton_candy"
+			}]
+		}
+	]
+}

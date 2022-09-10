@@ -1,0 +1,36 @@
+{
+	id: "3B83F4E095FD10DA"
+	group: "38BD71ED2D804D23"
+	order_index: 5
+	filename: "aquaculture"
+	title: "Sandwichable"
+	icon: {
+		id: "some_assembly_required:sandwich"
+		Count: 1b
+		tag: {
+			BlockEntityTag: {
+				Sandwich: [
+					{
+						id: "some_assembly_required:bread_slice"
+						Count: 1b
+					}
+					{
+						id: "minecraft:cooked_beef"
+						Count: 1b
+					}
+					{
+						id: "some_assembly_required:tomato_slices"
+						Count: 1b
+					}
+					{
+						id: "some_assembly_required:bread_slice"
+						Count: 1b
+					}
+				]
+			}
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

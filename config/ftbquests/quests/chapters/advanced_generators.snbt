@@ -1,0 +1,11 @@
+{
+	id: "6A3CA1E5B094BAA1"
+	group: "7452BCDA6D25A5F0"
+	order_index: 0
+	filename: "advanced_generators"
+	title: "Advanced Generators"
+	icon: "advgenerators:fuel_turbine_controller"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

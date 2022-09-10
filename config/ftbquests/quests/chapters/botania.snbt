@@ -1,0 +1,11 @@
+{
+	id: "3FC9388FD918336B"
+	group: "4E09F87C338C79C6"
+	order_index: 3
+	filename: "botania"
+	title: "Botania"
+	icon: "botania:yellow_mystical_flower"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

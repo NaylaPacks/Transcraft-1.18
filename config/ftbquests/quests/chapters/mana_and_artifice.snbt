@@ -1,0 +1,15 @@
+{
+	id: "7DB0E67B6C14F96E"
+	group: "4E09F87C338C79C6"
+	order_index: 11
+	filename: "mana_and_artifice"
+	title: "Mana and Artifice"
+	icon: {
+		id: "mna:ender_disc"
+		Count: 1b
+		tag: { }
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

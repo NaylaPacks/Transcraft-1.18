@@ -1,0 +1,15 @@
+{
+	id: "3BFFEE53E0FD4D1E"
+	group: "0D0E265050107B65"
+	order_index: 6
+	filename: "the_bumblezone"
+	title: "The Bumblezone"
+	icon: {
+		id: "the_bumblezone:honey_compass"
+		Count: 1b
+		tag: { }
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

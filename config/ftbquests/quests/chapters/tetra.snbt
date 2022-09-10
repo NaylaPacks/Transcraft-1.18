@@ -1,0 +1,11 @@
+{
+	id: "26160A50D74878CB"
+	group: "4EDFF2CB88086862"
+	order_index: 2
+	filename: "tetra"
+	title: "Tetra"
+	icon: "tetra:geode"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

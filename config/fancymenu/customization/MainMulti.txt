@@ -1,0 +1,49 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=55%
+  orientation = top-left
+  x = 5
+  action = movebutton
+  y = 8
+}
+
+customization {
+  orientation = top-right
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui
+  x = -114
+  width = 108
+  actionid = c188712a-9a85-4b61-b8cc-e7cd446a83051661629417747
+  action = addbutton
+  y = 8
+  label =      Create a Server
+  value = akliz
+  height = 20
+}
+
+customization {
+  path = kubejs/mainmenu/akliz_std.png
+  orientation = top-right
+  x = -110
+  width = 16
+  action = addtexture
+  actionid = d43ab3ac-67c1-44dc-b2e2-0eb4ceb19f8b1661629583443
+  y = 10
+  height = 16
+}
+

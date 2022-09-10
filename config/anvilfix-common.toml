@@ -1,0 +1,12 @@
+
+#Anvil Fix [Forge Edition]
+[general]
+	#The maximum level limit for repairs. If it is -1, then there is no limit.
+	repair_level_limit = -1
+	#The maximum level limit for enchantments. If -1, then there is no limit.
+	enchantment_level_limit = -1
+	#Do remove the incremental repair cost for enchantments?
+	remove_incremental_cost = false
+	#Do stop anvils from breaking?
+	stop_anvil_breaking = true
+

@@ -1,0 +1,133 @@
+{
+	id: "27519F361B3F9011"
+	group: "38BD71ED2D804D23"
+	order_index: 2
+	filename: "easy_villagers"
+	title: "Easy Villagers"
+	icon: "easy_villagers:trader"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			description: ["The Trader Block allows trading with the villager without having to deal with securing the villager. This block also allows the villager to restock in non-working hours. The restocking time of the villager is not dependent on any external sources like day/night time or dimension. You can customize the trading interval in the config."]
+			id: "4B217B4396CFD522"
+			tasks: [{
+				id: "2F148B2F8624975B"
+				type: "item"
+				item: "easy_villagers:trader"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			description: ["The Auto Trader works exactly line the trader block, except it automatically trades items for you. You can also automatically put items in and take items out with a hopper. The cooldown between trades is fully configurable."]
+			id: "46F4DC648B8C11D1"
+			tasks: [{
+				id: "51F8C73FF8C6A752"
+				type: "item"
+				item: "easy_villagers:auto_trader"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			description: ["The Farmer Block contains a whole crop farm in a single block. This helps to reduce lag and save space."]
+			id: "05A737097B9BC1D4"
+			tasks: [{
+				id: "6D7254F982AB6A0F"
+				type: "item"
+				item: "easy_villagers:farmer"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			description: ["The Breeder Block produces baby villagers by putting in food. This also helps to reduce lag, save space and also a lot of frustration."]
+			id: "2776CA6A3C42FB54"
+			tasks: [{
+				id: "7F2270483A01A2CC"
+				type: "item"
+				item: "easy_villagers:breeder"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			description: ["The Converter converts Villagers to Zombie Villagers and cures them afterwards, enabling the player that placed the block better trades from the Cured Villager. This block needs a Golden Apple, any type of Potion of Weakness and the Villager to convert. This process takes approximately five minutes."]
+			id: "6217EE0D1D8D9595"
+			tasks: [{
+				id: "1A2B34922A0B4989"
+				type: "item"
+				item: "easy_villagers:converter"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			description: ["The Iron Farm block contains a complete iron farm in a single block. It produces one iron golem every four minutes. This averages about one iron ingot per minute."]
+			id: "5982251C83E34A42"
+			tasks: [{
+				id: "6121979DFA0887FA"
+				type: "item"
+				item: "easy_villagers:iron_farm"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.5d
+			description: [
+				"The incubator block increases the growth rate of baby villagers."
+				"The Incubator block grows Baby Villagers into Adult Villagers."
+			]
+			id: "33E016C5184C80AF"
+			tasks: [{
+				id: "5B94B7B64D2EB7BD"
+				type: "item"
+				item: "easy_villagers:incubator"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.5d
+			description: [
+				"The Villager item can be obtained by sneaking and right-clicking a villager."
+				""
+				"The Villager item can be placed by right-clicking on the ground."
+			]
+			id: "683AC0C5A1F3159C"
+			tasks: [{
+				id: "2DE9E94685A619A5"
+				type: "item"
+				item: "easy_villagers:villager"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 3.5d
+			description: [
+				"The piglin item can be obtained by sneaking and right-clicking an adult piglin."
+				""
+				"The piglin item can be placed by right-clicking on the ground."
+			]
+			id: "1887BFD7C78DB519"
+			tasks: [{
+				id: "4B793F038CFAFEEA"
+				type: "item"
+				item: "easy_piglins:piglin"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.5d
+			description: ["The Barterer allows to automatically barter with piglins without having to deal with capturing it. This block can also be used in other dimensions without the piglins converting to Zombified Piglins."]
+			id: "39CCB696303D8020"
+			tasks: [{
+				id: "6F3BD475E81AE004"
+				type: "item"
+				item: "easy_piglins:barterer"
+			}]
+		}
+	]
+}

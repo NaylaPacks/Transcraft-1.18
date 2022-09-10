@@ -1,0 +1,11 @@
+{
+	id: "447D2A129D136841"
+	group: "0D0E265050107B65"
+	order_index: 4
+	filename: "waystones"
+	title: "Waystones"
+	icon: "waystones:waystone"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

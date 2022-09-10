@@ -1,0 +1,344 @@
+{
+	id: "793B58F8C6FD7047"
+	group: "4EDFF2CB88086862"
+	order_index: 0
+	filename: "dires_gadgets"
+	title: "Dire's Gadgets"
+	icon: {
+		id: "buildinggadgets:gadget_building"
+		Count: 1b
+		tag: {
+			state: {
+				serializer: "buildinggadgets:dummy_serializer"
+				state: {
+					Name: "minecraft:air"
+				}
+				data: { }
+			}
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "01CDC8D03216837A"
+			tasks: [{
+				id: "5505DA116DAD0C18"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_building"
+					Count: 1b
+					tag: {
+						state: {
+							serializer: "buildinggadgets:dummy_serializer"
+							state: {
+								Name: "minecraft:air"
+							}
+							data: { }
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			id: "2B777ACE1A59CE44"
+			tasks: [{
+				id: "48B9D761F74B9981"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_exchanging"
+					Count: 1b
+					tag: {
+						state: {
+							serializer: "buildinggadgets:dummy_serializer"
+							state: {
+								Name: "minecraft:air"
+							}
+							data: { }
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			id: "5898C998D344CE8D"
+			tasks: [{
+				id: "0016E9406E1E0FCA"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_copy_paste"
+					Count: 1b
+					tag: {
+						mode: 0b
+						template_id: [I;
+							-190415886
+							1073497035
+							-1883968149
+							1978873278
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			id: "2525D60D75C46A2F"
+			tasks: [{
+				id: "5243277863D6B800"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_destruction"
+					Count: 1b
+					tag: {
+						overlay: 1b
+						fuzzy: 1b
+					}
+				}
+			}]
+		}
+		{
+			title: "Mining Gadgets"
+			icon: {
+				id: "mininggadgets:mininggadget"
+				Count: 1b
+				tag: { }
+			}
+			x: 3.0d
+			y: 0.5d
+			subtitle: "No way to easily detect otherwise"
+			id: "01DC1B514D264E3D"
+			tasks: [{
+				id: "356E858487876DB1"
+				type: "checkmark"
+				title: "Click When Mining Gadget is Crafted"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.5d
+			dependencies: ["01DC1B514D264E3D"]
+			id: "4CD3F010EBB0BD1B"
+			tasks: [{
+				id: "3520D100C2FFF16B"
+				type: "item"
+				item: "mininggadgets:upgrade_empty"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -0.5d
+			dependencies: ["4CD3F010EBB0BD1B"]
+			id: "70F18B1BE9B5247E"
+			tasks: [{
+				id: "2FB511FB30E8A0CA"
+				type: "item"
+				item: "mininggadgets:upgrade_silk"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.5d
+			dependencies: ["4CD3F010EBB0BD1B"]
+			id: "39F225CD524A0986"
+			tasks: [{
+				id: "22D7FA36BA608271"
+				type: "item"
+				item: "mininggadgets:upgrade_void_junk"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.5d
+			dependencies: ["4CD3F010EBB0BD1B"]
+			id: "316649EC08A476FF"
+			tasks: [{
+				id: "354C00F9EFBE8CAA"
+				type: "item"
+				item: "mininggadgets:upgrade_magnet"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.5d
+			dependencies: ["4CD3F010EBB0BD1B"]
+			id: "5F5D9C8A049A1865"
+			tasks: [{
+				id: "70C60F4B8D800803"
+				type: "item"
+				item: "mininggadgets:upgrade_light_placer"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.5d
+			dependencies: ["4CD3F010EBB0BD1B"]
+			id: "6C2A5E4A54C1A24A"
+			tasks: [{
+				id: "187DE0A6161EC4EF"
+				type: "item"
+				item: "mininggadgets:upgrade_freezing"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -2.5d
+			dependencies: ["4CD3F010EBB0BD1B"]
+			id: "078812007F6835DF"
+			tasks: [{
+				id: "4A38342E9881B9C7"
+				type: "item"
+				item: "mininggadgets:upgrade_fortune_1"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -2.5d
+			dependencies: ["078812007F6835DF"]
+			id: "7E8BAE6C16A498A7"
+			tasks: [{
+				id: "077D3F0784E99D0C"
+				type: "item"
+				item: "mininggadgets:upgrade_fortune_2"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -2.5d
+			dependencies: ["7E8BAE6C16A498A7"]
+			id: "748EE92BE46211AD"
+			tasks: [{
+				id: "529E98222470F1FD"
+				type: "item"
+				item: "mininggadgets:upgrade_fortune_3"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 3.5d
+			dependencies: ["4CD3F010EBB0BD1B"]
+			id: "36334F75DC182F46"
+			tasks: [{
+				id: "514D65E0A3358A64"
+				type: "item"
+				item: "mininggadgets:upgrade_range_1"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 3.5d
+			dependencies: ["36334F75DC182F46"]
+			id: "40D4B2B0B871B0D1"
+			tasks: [{
+				id: "22B8784DCEC2E7BF"
+				type: "item"
+				item: "mininggadgets:upgrade_range_2"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 3.5d
+			dependencies: ["40D4B2B0B871B0D1"]
+			id: "29DD93CEDE04510E"
+			tasks: [{
+				id: "10174AD08551E6B5"
+				type: "item"
+				item: "mininggadgets:upgrade_range_3"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 4.5d
+			dependencies: ["4CD3F010EBB0BD1B"]
+			id: "6D30AAAA6D134157"
+			tasks: [{
+				id: "43B7FD34C0DA29A2"
+				type: "item"
+				item: "mininggadgets:upgrade_battery_1"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 4.5d
+			dependencies: ["6D30AAAA6D134157"]
+			id: "407AB86AE2EB318B"
+			tasks: [{
+				id: "31199633570B58A7"
+				type: "item"
+				item: "mininggadgets:upgrade_battery_2"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 4.5d
+			dependencies: ["407AB86AE2EB318B"]
+			id: "2DF9E283F6747E24"
+			tasks: [{
+				id: "27EE8F608E2B77D2"
+				type: "item"
+				item: "mininggadgets:upgrade_battery_3"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -3.5d
+			dependencies: ["4CD3F010EBB0BD1B"]
+			id: "6764284B7BB8507B"
+			tasks: [{
+				id: "5ADF03131AD72C39"
+				type: "item"
+				item: "mininggadgets:upgrade_efficiency_1"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -3.5d
+			dependencies: ["6764284B7BB8507B"]
+			id: "233922C963678486"
+			tasks: [{
+				id: "1EC35DEA3FD21FA0"
+				type: "item"
+				item: "mininggadgets:upgrade_efficiency_2"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -3.5d
+			dependencies: ["233922C963678486"]
+			id: "727A8D3FC0E8D045"
+			tasks: [{
+				id: "256A95E328A36BF1"
+				type: "item"
+				item: "mininggadgets:upgrade_efficiency_3"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -3.5d
+			dependencies: ["727A8D3FC0E8D045"]
+			id: "04FA29A9482DD01A"
+			tasks: [{
+				id: "618E5B692001B629"
+				type: "item"
+				item: "mininggadgets:upgrade_efficiency_4"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -3.5d
+			dependencies: ["04FA29A9482DD01A"]
+			id: "47B374FB8A34533D"
+			tasks: [{
+				id: "4408628D320A6D39"
+				type: "item"
+				item: "mininggadgets:upgrade_efficiency_5"
+			}]
+		}
+	]
+}

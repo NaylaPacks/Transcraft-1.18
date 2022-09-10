@@ -1,0 +1,11 @@
+{
+	id: "3E3A072DAFC72C02"
+	group: "7452BCDA6D25A5F0"
+	order_index: 13
+	filename: "rftolls"
+	title: "RF Tools"
+	icon: "rftoolsbase:machine_infuser"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

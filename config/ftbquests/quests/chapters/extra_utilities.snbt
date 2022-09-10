@@ -1,0 +1,11 @@
+{
+	id: "1F1BE52D24F59EEC"
+	group: "7452BCDA6D25A5F0"
+	order_index: 5
+	filename: "extra_utilities"
+	title: "Extra Utilities"
+	icon: "extrautilitiesrebirth:furnace_generator"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

@@ -1,0 +1,11 @@
+{
+	id: "6C753664EB72953C"
+	group: "7452BCDA6D25A5F0"
+	order_index: 11
+	filename: "pneumaticraft"
+	title: "Pneumaticraft"
+	icon: "pneumaticcraft:air_compressor"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

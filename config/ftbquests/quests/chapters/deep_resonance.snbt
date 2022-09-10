@@ -1,0 +1,27 @@
+{
+	id: "6B2400491934FB48"
+	group: "7452BCDA6D25A5F0"
+	order_index: 4
+	filename: "deep_resonance"
+	title: "Deep Resonance"
+	icon: {
+		id: "deepresonance:resonating_crystal_natural"
+		Count: 1b
+		tag: {
+			BlockEntityTag: {
+				glowing: 0b
+				Info: {
+					owner: ""
+					efficiency: 1.0d
+					powered: 0b
+					strength: 1.0d
+					purity: 50.0d
+					power: 0.0d
+				}
+			}
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

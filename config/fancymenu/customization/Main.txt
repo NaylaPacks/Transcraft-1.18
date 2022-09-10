@@ -1,0 +1,461 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.TitleScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = kubejs/mainmenu/background.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = mid-centered
+  x = -103
+  action = movebutton
+  y = 5
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 192
+  action = resizebutton
+  height = 26
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = kubejs\mainmenu\long_button_highlighted_pink.png
+  backgroundnormal = kubejs\mainmenu\long_button.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = mid-centered
+  x = -103
+  action = movebutton
+  y = 32
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 94
+  action = resizebutton
+  height = 24
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = setbuttonlabel
+  value = Options
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = kubejs\mainmenu\short_button_highlighted_white.png
+  backgroundnormal = kubejs\mainmenu\short_button.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = mid-centered
+  x = -103
+  action = movebutton
+  y = 82
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 192
+  action = resizebutton
+  height = 26
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = kubejs\mainmenu\long_button_highlighted_blue.png
+  backgroundnormal = kubejs\mainmenu\long_button.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = top-right
+  x = -22
+  action = movebutton
+  y = 2
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = kubejs\mainmenu\language_hover.png
+  backgroundnormal = kubejs\mainmenu\language.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-centered
+  x = -103
+  action = movebutton
+  y = -22
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 192
+  action = resizebutton
+  height = 26
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = kubejs\mainmenu\long_button_highlighted_blue.png
+  backgroundnormal = kubejs\mainmenu\long_button.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = mid-centered
+  x = -5
+  action = movebutton
+  y = 32
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  width = 94
+  action = resizebutton
+  height = 24
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = kubejs\mainmenu\short_button_highlighted_white.png
+  backgroundnormal = kubejs\mainmenu\short_button.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 106
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 640207f1-81b4-4ee9-9172-2ccd86a577641660663841082
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 108
+  action = deep_customization_element:title_screen_branding
+  actionid = fb2f7e97-6843-479f-8ebd-e914a66497ef1660663841089
+  y = 211
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 251
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 85743280-04dd-4fd2-af0a-9ba4488774b91660663841089
+  y = 233
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 343
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = bd770d5b-6862-4ced-8c0c-1180372f6f121660663841089
+  y = 163
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 103
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = b955f265-5cfc-42a0-be83-1aae3fd44faa1660663841089
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 57552d77-6a41-4b84-8ca4-328dde1beffb1660663841090
+  y = 0
+  height = 30
+}
+
+customization {
+  orientation = top-right
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = kubejs\mainmenu\web_hover.png
+  label = 
+  loopbackgroundanimations = true
+  x = -22
+  width = 20
+  actionid = 09549c79-f83d-47ab-a3c1-892a06e0400a1660664349708
+  action = addbutton
+  y = 24
+  backgroundnormal = kubejs\mainmenu\web.png
+  value = https://www.curseforge.com/minecraft/modpacks/adg-omega-6
+  height = 20
+}
+
+customization {
+  orientation = top-right
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = kubejs\mainmenu\akliz_hover.png
+  label = 
+  loopbackgroundanimations = true
+  x = -22
+  width = 20
+  actionid = 05dc22e7-c2c5-4717-94d7-8e41eaf8b8881660664498506
+  action = addbutton
+  y = 46
+  backgroundnormal = kubejs\mainmenu\akliz.png
+  value = https://www.akliz.net/crankysupertoon
+  height = 21
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = kubejs\mainmenu\short_button_highlighted_pink.png
+  label = Issue Tracker
+  loopbackgroundanimations = true
+  x = -103
+  width = 94
+  actionid = 1aa13759-a186-42c2-9c95-e0ca4a0e4f331660664762940
+  action = addbutton
+  y = 55
+  backgroundnormal = kubejs\mainmenu\short_button.png
+  value = https://github.com/NorasPacks/Transcraft-1.18/issues
+  height = 24
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = kubejs\mainmenu\short_button_highlighted_pink.png
+  label = Changelogs
+  loopbackgroundanimations = true
+  x = -4
+  width = 94
+  actionid = 64d28766-c65d-45a1-9f40-95507816109b1660664815727
+  action = addbutton
+  y = 56
+  backgroundnormal = kubejs\mainmenu\short_button.png
+  value = https://github.com/NorasPacks/Transcraft-1.18/blob/master/CHANGELOG.md
+  height = 24
+}
+
+customization {
+  orientation = bottom-left
+  enable_scrolling = false
+  shadow = true
+  scale = 1.0
+  source = Forge %version:forge%
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 2
+  width = 207
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 919328f3-7064-465f-b054-35984da8fe8b1660665151843
+  y = -32
+  alignment = left
+  height = 10
+}
+
+customization {
+  orientation = bottom-left
+  enable_scrolling = false
+  shadow = true
+  scale = 1.0
+  source = %loadedmods% Mods Loaded
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 2
+  width = 200
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 642e9541-cc37-4b51-a8d3-c312dc53c0e21660665234652
+  y = -22
+  alignment = left
+  height = 9
+}
+
+customization {
+  orientation = bottom-right
+  enable_scrolling = false
+  shadow = true
+  scale = 1.0
+  source = Minecraft %mcversion%
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -118
+  width = 115
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 284890f4-4dce-49b9-acdf-695a433656411660665264781
+  y = -21
+  alignment = right
+  height = 9
+}
+
+customization {
+  orientation = bottom-right
+  enable_scrolling = false
+  shadow = true
+  scale = 1.0
+  source = Copyright Mojang AB
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -108
+  width = 105
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 2548f464-36ba-4411-a071-d8907986fa4c1660665280769
+  y = -11
+  alignment = right
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = false
+  shadow = true
+  scale = 1.5
+  source = Welcome, %playername%
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 2
+  width = 224
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 2394dbfa-8d9f-4b51-8ee8-3299370129a01660665419500
+  y = 2
+  alignment = left
+  height = 22
+}
+
+customization {
+  path = kubejs/mainmenu/logo.png
+  orientation = mid-centered
+  x = -108
+  width = 202
+  action = addtexture
+  actionid = f4c7ab92-8421-4283-b8d6-7976e7060efd1660687831955
+  y = -124
+  height = 101
+}
+
+customization {
+  orientation = bottom-left
+  enable_scrolling = false
+  shadow = true
+  scale = 1.0
+  source = Transcraft
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 3
+  width = 200
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 6a5472f9-c61e-48f7-b902-91320d80e3761660688225299
+  y = -12
+  alignment = left
+  height = 10
+}
+
+customization {
+  orientation = bottom-centered
+  basecolor = #ffff00
+  shadow = true
+  rotation = 0.0
+  scale = 1.05
+  refresh = true
+  bouncing = true
+  vanilla-like = true
+  x = -35
+  actionid = db37aa7b-c25e-4351-b1b0-58121afdf21f1661700745577
+  action = addsplash
+  y = -19
+  text = WLW is pronounced Wooloo!
+}
+

@@ -1,0 +1,19 @@
+{
+	id: "571B2C274DA1CA5C"
+	group: "0D0E265050107B65"
+	order_index: 3
+	filename: "simple_planes"
+	title: "Simple Planes"
+	icon: {
+		id: "simpleplanes:plane"
+		Count: 1b
+		tag: {
+			EntityTag: {
+				material: "minecraft:oak_planks"
+			}
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

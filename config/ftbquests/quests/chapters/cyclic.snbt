@@ -1,0 +1,11 @@
+{
+	id: "417E34AB8763A67F"
+	group: "7452BCDA6D25A5F0"
+	order_index: 3
+	filename: "cyclic"
+	title: "Cyclic"
+	icon: "cyclic:solidifier"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

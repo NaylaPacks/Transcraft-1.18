@@ -1,0 +1,11 @@
+{
+	id: "47794C2A10DD8BD6"
+	group: "4E09F87C338C79C6"
+	order_index: 9
+	filename: "hexerei"
+	title: "Hexerei"
+	icon: "hexerei:mixing_cauldron"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}
